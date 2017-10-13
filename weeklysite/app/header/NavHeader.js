@@ -53,6 +53,7 @@ class NavHeader extends React.Component {
     handleRequestClose = (value) => {
         this.setState({ open: false });
         this.props.actions.changeTheme(themes[value]);
+        localStorage.setItem('theme', value);
     };
     render() {
         const classes = this.props.classes;

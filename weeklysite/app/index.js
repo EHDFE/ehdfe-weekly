@@ -1,7 +1,7 @@
 import React from 'react';
 import './base.css';
 import Navs from './router';
-import { defaultTheme } from './theme';
+import * as themes from './theme';
 
 import { MuiThemeProvider } from 'material-ui/styles';
 import PropTypes from 'prop-types';
@@ -9,8 +9,15 @@ import { connect } from 'react-redux';
 import * as Changetheme from './actions';
 import { bindActionCreators } from 'redux';
 
+const themeKey = localStorage.getItem('theme');
+var defaultTheme;
+if(themeKey&&(themeKey in themes)){
+  defaultTheme = themes[themeKey];
+}else{
+  defaultTheme = themes['defaultTheme'];
+}
 
-console.log(defaultTheme,88)
+
 class App extends React.Component {  
   state = {
     theme:defaultTheme
