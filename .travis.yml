@@ -22,13 +22,6 @@ before_script:
 script:
 - npm run build
 
-# after_script:
-# - git config user.name "JeffWong16"
-# - git config user.email "huanggbxjp@sohu.com"
-# - git add .
-# - git commit -m "Update Site"
-# - git push --force  "https://f7f21d33fdb4fef68c54a01bdcc67f65d1541601@github.com/EHDFE/ehdfe-weekly.git" master:master
-
 branches:
   only:
   - master

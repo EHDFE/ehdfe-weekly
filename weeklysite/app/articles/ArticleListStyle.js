@@ -29,7 +29,9 @@ const styleSheet = {
         cursor:'pointer'
     },
     sideBar:{
-        position:'fixed'
+        position:'fixed',
+        height:'100%',
+        overflowY:'auto'
     },
     footer: {
         textAlign: 'center',
