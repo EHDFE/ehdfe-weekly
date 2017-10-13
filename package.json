@@ -1,0 +1,69 @@
+{
+  "name": "ehdfe-weekly",
+  "version": "1.0.0",
+  "description": "ehdef weekly",
+  "main": "index.js",
+  "scripts": {
+    "astart": "webpack-dev-server --config ./site/webpack.dev.js",
+    "afetch": "node ./site/getArticleList.js",
+    "abuild": "webpack --config ./site/webpack.prod.js",
+    "start": "webpack-dev-server --config ./weeklysite/webpack.dev.js",
+    "fetch": "node ./weeklysite/getArticleList.js",
+    "build": "webpack --config ./weeklysite/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EHDFE/ehdfe-weekly.git"
+  },
+  "keywords": [
+    "weekly",
+    "react"
+  ],
+  "author": "Jeff",
+  "license": "ISC",
+  "theme": "./theme.js",
+  "bugs": {
+    "url": "https://github.com/EHDFE/ehdfe-weekly/issues"
+  },
+  "homepage": "https://github.com/EHDFE/ehdfe-weekly#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chalk": "^2.0.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "favicons-webpack-plugin": "^0.0.7",
+    "file-loader": "^0.11.2",
+    "glob": "^7.1.2",
+    "html-loader": "^0.5.0",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "less-vars-to-js": "^1.1.2",
+    "markdown-loader": "^2.0.1",
+    "postcss-loader": "^2.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "antd": "^2.12.3",
+    "babel-plugin-import": "^1.3.1",
+    "material-ui": "^1.0.0-beta.4",
+    "material-ui-icons": "^1.0.0-alpha.19",
+    "prop-types": "^15.5.10",
+    "react": "^16.0.0",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-swipeable-views": "^0.12.5",
+    "recompose": "^0.24.0"
+  }
+}

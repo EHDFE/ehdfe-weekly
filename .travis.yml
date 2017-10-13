@@ -1,0 +1,39 @@
+.travis.ymllanguage: node_js
+node_js: stable
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  target_branch: master
+  on:
+    branch: master
+
+cache:
+  directories:
+  - node_modules
+
+install:
+- npm install
+
+before_script:
+- npm run fetch
+
+script:
+- npm run build
+
+# after_script:
+# - git config user.name "JeffWong16"
+# - git config user.email "huanggbxjp@sohu.com"
+# - git add .
+# - git commit -m "Update Site"
+# - git push --force  "https://f7f21d33fdb4fef68c54a01bdcc67f65d1541601@github.com/EHDFE/ehdfe-weekly.git" master:master
+
+branches:
+  only:
+  - master
+
+env:
+  global:
+  - GH_REF: github.com/EHDFE/ehdfe-weekly.git
+
