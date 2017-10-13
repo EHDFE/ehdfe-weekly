@@ -9,7 +9,8 @@ const styleSheet =(theme)=> {
     header: {
         // backgroundColor: '#2196F3',
         // backgroundColor:theme.palette.primary[50],
-        flexDirection:'row'
+        flexDirection:'row',
+        color:'#fff'
     },
     logo:{
         flexGrow:1,
