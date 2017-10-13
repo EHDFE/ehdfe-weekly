@@ -1,3 +1,5 @@
+
+
 import { createMuiTheme } from 'material-ui/styles';
 import green from 'material-ui/colors/green';
 import red from 'material-ui/colors/red';
@@ -7,7 +9,7 @@ import lightGreen from 'material-ui/colors/lightGreen';
 import grey from 'material-ui/colors/green';
 
 // console.log(green)
-const blueTheme = createMuiTheme({
+const greenTheme = createMuiTheme({
     palette: {
         primary: blue, 
         secondary: {
@@ -18,4 +20,4 @@ const blueTheme = createMuiTheme({
       },
 });
 
-export default blueTheme;
+export default greenTheme;

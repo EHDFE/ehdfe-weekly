@@ -1,7 +1,6 @@
 // import {createStyleSheet} from '';
 
 const styleSheet =(theme)=> { 
-    console.log(theme)   
     return ({
     root: {
         flexGrow: 1,

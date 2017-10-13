@@ -1,28 +1,26 @@
 import React from 'react';
 import './base.css';
 import Navs from './router';
-import greenTheme from './theme/green';
-import blueTheme from './theme/blue';
+import { defaultTheme } from './theme';
+
 import { MuiThemeProvider } from 'material-ui/styles';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import * as Changetheme from './actions';
+import { bindActionCreators } from 'redux';
 
-class App extends React.Component {
 
-  static childContextTypes = {
-    changeTheme: PropTypes.func
-  };
-  
+console.log(defaultTheme,88)
+class App extends React.Component {  
   state = {
-    theme:blueTheme
+    theme:defaultTheme
   }
-  
-  getChildContext(){
-    return {
-      changeTheme:(data)=>{
-        console.log(data);
-      }
-    }
+
+  componentWillReceiveProps(nextProps){
+    console.log(nextProps.theme,444)
+    this.setState({theme:nextProps.theme})
   }
+
   render() {
     return (
       <MuiThemeProvider theme={this.state.theme}>
@@ -32,4 +30,16 @@ class App extends React.Component {
   }
 }
 
-export default App;
+const mapStateToProps = state => ({
+  theme: state.theme
+})
+
+const mapDispatchToProps = dispatch => ({
+    actions : bindActionCreators(Changetheme, dispatch)
+})
+
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App);
