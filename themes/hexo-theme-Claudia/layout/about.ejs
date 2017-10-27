@@ -11,14 +11,14 @@
 </style>
 <%
     // 优先使用专用的about页面头像, 如果没有设置才是用主页的用户头像
-    var avatar = 'http://o7bkkhiex.bkt.clouddn.com/discobolus-avatar.png' || 'http://o7bkkhiex.bkt.clouddn.com/avatar.png' || theme.user_intro_avatar || theme.user_avatar
+    var avatar = "https://img.alicdn.com/tps/TB1x3hvMXXXXXcrXFXXXXXXXXXX-900-500.jpg"||'http://o7bkkhiex.bkt.clouddn.com/discobolus-avatar.png' || 'http://o7bkkhiex.bkt.clouddn.com/avatar.png' || theme.user_intro_avatar || theme.user_avatar
 %>
 <div class="container">
     <div class="content-box full-width is-flex justify-center">
         <div class="columns">
-            <div class="column is-5">
+            <!-- <div class="column is-5">
                 <img class="avatar" src="<%- avatar %>">
-            </div>
+            </div> -->
             <div class="column">
                 <div class="content">
                     <h1>
@@ -29,7 +29,7 @@
                     <p class="is-flex align-center"><i class="fa fa-location-arrow" style="margin-right: 5px;"></i> <%- theme.user_location %></p>
                     <p><%- theme.user_description %></p>
                     <p><%- theme.user_introduction || ''%></p>
-
+                    <img class="avatar" src="<%- avatar %>">
                 </div>
                 <div>
                     <ul class="sns-container is-flex">
