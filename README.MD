@@ -8,33 +8,11 @@
    
 货嘀周刊的主页：[https://ehdfe.github.io/ehdfe-weekly/](https://ehdfe.github.io/ehdfe-weekly/)
 
-### 周报书写规范
+### 一些必要的说明
 
-1，周报文档名遵循 数字.周报题目(YYYY.M.D-YYYY.M.D.md 的格式。 比如`4.百度无人车上路(2017-7-10-2017-7-14).md`，注意 `.`  `()`都是英文字符。
-数字一方面百名周报期数，另一方面则是文档排序的重要依据。
-
-2，周报题目应与周报名称相同,或稍有变化。 在题目下面注明本期整理人员，或其他相关信息，比如
-
-> - 本期期数:一     
-> - 本期整理:[@JeffWong16](https://github.com/JeffWong16)
-> - 周报时间:2017/6/19~2017/6/23 
-
-
-### 站点更新流程
-
-1，下载项目项目到本地
+* 本周报是基于[hexo](https://hexo.io/zh-cn/index.html)构建的。更新的文章位于https://github.com/EHDFE/ehdfe-weekly/tree/master/source/_posts  目录下，可以按照已有的文章进行拷贝编辑。也可以使用hexo自己提供的脚手架。
 ```
-git clone git@github.com:EHDFE/ehdfe-weekly.git
+hexo new post 文章名 //需要在本地全局安装hexo npm install hexo-cli -g
 ```
 
-2，获取最新周报列表（如无新添周报文档，可跳过本步）
-```
-npm run fetch
-```
-
-3,打包更新好的周报文档。
-```
-npm run build
-```
-
-4，上传项目。
+* 周报采用travis自动部署，因而，直接更新master分支就可以将 public文件夹部署到gh-pages分支。
