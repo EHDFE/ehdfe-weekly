@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>JSConf2017来袭 | 易周刊</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="新闻热点 听说你没来 JSConf 2017？ ECMAScript 2017 语言规范发布 程序员头条 即将到来的正则表达式新特性 2017 开发者生态报告：JS 是最常用的语言 安利公众号-前端之巅 技术深入 最全正则表达式总结：验证QQ号、手机号、Email、中文、邮编、身份证、IP地址等  从 JavaScript 到 TypeScript Webpack’s HMR &amp;amp; Rea">
+<meta name="keywords" content="正则表达式">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JSConf2017来袭">
+<meta property="og:url" content="https://ehdfe.github.io/ehdfe-weekly/2017/07/21/005.JSConf2017来袭(2017.7.17-2017.7.21)/index.html">
+<meta property="og:site_name" content="易周刊">
+<meta property="og:description" content="新闻热点 听说你没来 JSConf 2017？ ECMAScript 2017 语言规范发布 程序员头条 即将到来的正则表达式新特性 2017 开发者生态报告：JS 是最常用的语言 安利公众号-前端之巅 技术深入 最全正则表达式总结：验证QQ号、手机号、Email、中文、邮编、身份证、IP地址等  从 JavaScript 到 TypeScript Webpack’s HMR &amp;amp; Rea">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg">
+<meta property="og:updated_time" content="2018-03-20T02:42:33.341Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JSConf2017来袭">
+<meta name="twitter:description" content="新闻热点 听说你没来 JSConf 2017？ ECMAScript 2017 语言规范发布 程序员头条 即将到来的正则表达式新特性 2017 开发者生态报告：JS 是最常用的语言 安利公众号-前端之巅 技术深入 最全正则表达式总结：验证QQ号、手机号、Email、中文、邮编、身份证、IP地址等  从 JavaScript 到 TypeScript Webpack’s HMR &amp;amp; Rea">
+<meta name="twitter:image" content="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="易周刊" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/ehdfe-weekly/css/common.css">
+<link rel="stylesheet" href="/ehdfe-weekly/css/nav.css">
+<link rel="stylesheet" href="/ehdfe-weekly/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/ehdfe-weekly/" class="nav-item" style="font-size: 20px;">
+                <span class="logo">易周刊</span>
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/ehdfe-weekly/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/ehdfe-weekly/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/ehdfe-weekly/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/ehdfe-weekly/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>JSConf2017来袭</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> <a href="https://github.com/lhf-nife">lhf-nife</a></span>
+                <span class="post-date sub-title">at: 2017-07-21</span>
+            </div>
+            
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/ehdfe-weekly/tags/正则表达式/">正则表达式</a>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p>
+<h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul>
+<li><a href="https://juejin.im/post/5969821851882534a31cab5b?utm_source=gold_browser_extension" target="_blank" rel="noopener">听说你没来 JSConf 2017？</a></li>
+<li><a href="http://www.cnbeta.com/articles/tech/631029.htm" target="_blank" rel="noopener">ECMAScript 2017 语言规范发布</a></li>
+<li><a href="https://mp.weixin.qq.com/s/iabl8WN9v2Hh2vegHnvqng" target="_blank" rel="noopener">程序员头条</a></li>
+<li><a href="https://github.com/xitu/gold-miner/blob/master/TODO/upcoming-regexp-features.md" target="_blank" rel="noopener">即将到来的正则表达式新特性</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651552358&amp;idx=1&amp;sn=a5d800e86eeb37c04f0f462d6a877472&amp;chksm=8025ada7b75224b1ea8ed673a19d98158d927471d2e1a83429962d8a3967800c69fffdf08959&amp;mpshare=1&amp;scene=1&amp;srcid=0721bJOvuOwt5YylLkYZJBeZ#rd" target="_blank" rel="noopener">2017 开发者生态报告：JS 是最常用的语言</a></li>
+<li><p><a href="http://mp.weixin.qq.com/s/XM16ucaVt04iA4I7m0ApvA" target="_blank" rel="noopener">安利公众号-前端之巅</a></p>
+<h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2></li>
+<li><p><a href="http://www.lovebxm.com/2017/05/31/RegExp/" target="_blank" rel="noopener">最全正则表达式总结：验证QQ号、手机号、Email、中文、邮编、身份证、IP地址等</a></p>
+</li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&amp;mid=2651226713&amp;idx=1&amp;sn=d3a18f34320fa70d0e253cfa655e1738&amp;chksm=bd495bdd8a3ed2cba1c919e533b1190252b93ff4d29d073d0f8e686aa854bca324faf5800604&amp;mpshare=1&amp;scene=23&amp;srcid=0718AqDbUtuXwTmMx3PZYWPT#rd" target="_blank" rel="noopener">从 JavaScript 到 TypeScript</a></li>
+<li><a href="https://medium.com/@rajaraodv/webpacks-hmr-react-hot-loader-the-missing-manual-232336dc0d96" target="_blank" rel="noopener">Webpack’s HMR &amp; React-Hot-Loader — The Missing Manual</a>:详解webpack热加载 <a href="https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07" target="_blank" rel="noopener">附</a></li>
+<li><a href="https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/stack/images/intro/all-page-stack-reconciler.svg" target="_blank" rel="noopener">React生命周期</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA4NjE3MDg4OQ==&amp;mid=2650964839&amp;idx=1&amp;sn=7c3ba00f6fc38a88324602f669bc385d&amp;chksm=843aef01b34d6617ef696e2d5140d977451fb0c60ccddd7235075b725a2271b9610d0b2b3913&amp;mpshare=1&amp;scene=1&amp;srcid=0721dNLIpHpu7j7VtRHMqD2E#rd" target="_blank" rel="noopener">虚拟 DOM 内部是如何工作的？</a></li>
+</ul>
+
+        </div>
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMTU1MC84MTE0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[0]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        Copyright © 易货嘀前端团队 2018
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/ehdfe-weekly/js/search_core.js"></script>
+<script src="/ehdfe-weekly/js/script.js"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>用空格缩进的程序员赚钱更多? | 易周刊</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="技术趣闻 webpack 3 发布:这次没有 beta 版本，完全向下兼容。从 webpack 2 迁移到 3，你只需要执行升级命令，而不需要修改任何代码。我们将这次升级标记为版本的重大升级，是因为内部的突破性变化可能会影响某些插件的使用。到目前为止，98% 的升级的用户都没有遇到任何不兼容！ React 15.6.0 发布：React 15.6.0 中主要带来了输入域的提升以及对于 Depre">
+<meta name="keywords" content="webpack">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用空格缩进的程序员赚钱更多?">
+<meta property="og:url" content="https://ehdfe.github.io/ehdfe-weekly/2017/06/23/001.用空格缩进的程序员赚钱更多(2017.6.19-2017.6.23)/index.html">
+<meta property="og:site_name" content="易周刊">
+<meta property="og:description" content="技术趣闻 webpack 3 发布:这次没有 beta 版本，完全向下兼容。从 webpack 2 迁移到 3，你只需要执行升级命令，而不需要修改任何代码。我们将这次升级标记为版本的重大升级，是因为内部的突破性变化可能会影响某些插件的使用。到目前为止，98% 的升级的用户都没有遇到任何不兼容！ React 15.6.0 发布：React 15.6.0 中主要带来了输入域的提升以及对于 Depre">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg">
+<meta property="og:updated_time" content="2018-03-20T02:42:33.341Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="用空格缩进的程序员赚钱更多?">
+<meta name="twitter:description" content="技术趣闻 webpack 3 发布:这次没有 beta 版本，完全向下兼容。从 webpack 2 迁移到 3，你只需要执行升级命令，而不需要修改任何代码。我们将这次升级标记为版本的重大升级，是因为内部的突破性变化可能会影响某些插件的使用。到目前为止，98% 的升级的用户都没有遇到任何不兼容！ React 15.6.0 发布：React 15.6.0 中主要带来了输入域的提升以及对于 Depre">
+<meta name="twitter:image" content="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="易周刊" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/ehdfe-weekly/css/common.css">
+<link rel="stylesheet" href="/ehdfe-weekly/css/nav.css">
+<link rel="stylesheet" href="/ehdfe-weekly/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/ehdfe-weekly/" class="nav-item" style="font-size: 20px;">
+                <span class="logo">易周刊</span>
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/ehdfe-weekly/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/ehdfe-weekly/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/ehdfe-weekly/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/ehdfe-weekly/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <!--博文页面-->
+
+<style>
+    .header-box {
+        height: 370px;
+        filter: blur(10px);
+        background-size: cover;
+        background-color: lightsteelblue;
+    }
+
+    .post-box {
+        padding: 15px;
+        padding-top: 60px;
+        min-height: 80vh;
+        margin-top: -200px;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,.8);
+    }
+
+    .post-avatar {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .flow-chart {
+        text-align: center;
+    }
+
+    img[alt="post-cover"] {
+        display: none;
+    }
+</style>
+<header>
+    <div id="header_box" class="header-box"></div>
+</header>
+<section>
+    <div class="container post-box">
+        <div class="content post-title is-flex center flex-column" style="margin-bottom: 70px; overflow: auto;">
+            <h1 class="has-text-centered" style="padding-bottom: 10px; border-bottom: 3px solid #fff">
+                <strong>用空格缩进的程序员赚钱更多?</strong>
+            </h1>
+            
+            <div class="is-flex align-center">
+                <span style="padding:0 10px;"> <span class="sub-title">By</span> <a href="https://github.com/JeffWong16">JeffWong</a></span>
+                <span class="post-date sub-title">at: 2017-06-23</span>
+            </div>
+            
+                <div>
+                    
+                         <a class="tag is-post-tag" href="/ehdfe-weekly/tags/webpack/">webpack</a>
+                    
+                </div>
+            
+        </div>
+        <div class="content" style="overflow: auto">
+            <p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p>
+<h2 id="技术趣闻"><a href="#技术趣闻" class="headerlink" title="技术趣闻"></a>技术趣闻</h2><ul>
+<li><a href="https://juejin.im/post/592faca42f301e006bc791e0" target="_blank" rel="noopener">webpack 3 发布</a>:这次没有 beta 版本，完全向下兼容。从 webpack 2 迁移到 3，你只需要执行升级命令，而不需要修改任何代码。我们将这次升级标记为版本的重大升级，是因为内部的突破性变化可能会影响某些插件的使用。<br>到目前为止，98% 的升级的用户都没有遇到任何不兼容！</li>
+<li><a href="https://facebook.github.io/react/blog/2017/06/13/react-v15.6.0.html" target="_blank" rel="noopener">React 15.6.0 发布</a>：React 15.6.0 中主要带来了输入域的提升以及对于 Deprecation 提示的优化。该版本中 onChange 事件响应会变得更加稳定，并且能够处理 IE11 中存在的部分临界情况；同时该版本还优化了对于使用废弃接口的提示，不再强行使用 console.error 提示，而是替换为了 console.warn。</li>
+<li><a href="https://zhuanlan.zhihu.com/p/26680273" target="_blank" rel="noopener">nodejs 8.0发布</a>：随着 node 8.0的发布，npm 5.0发布。对前端而言，我们或许更关注npm的版本升级带来的<a href="http://www.qingpingshan.com/m/view.php?aid=282888" target="_blank" rel="noopener">新特性</a>。</li>
+</ul>
+<h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul>
+<li><a href="https://hacks.mozilla.org/2017/06/a-crash-course-in-memory-management/" target="_blank" rel="noopener">js内存管理速成</a>:本系列文章以漫画的方式生动有趣地介绍了 JavaScript 中内存管理的相关知识，首先介绍了 JavaScript 与 C 这两个风格迥异的语言是如何进行内存管理的，然后讨论了 ArrayBuffers 与 ShardArrayBuffurs 存在的意义以及可能引起的临界情况，最后讨论了在未来 WebAssembly 开发中应该如何使用 Atomics 来处理并发情况下的临界情况。</li>
+<li><a href="http://mp.weixin.qq.com/s/WAoeyuWDe6shaiLomcB0hw" target="_blank" rel="noopener">React + webpack 之性能优化</a>:代码合并与分割永远是webpack打包考虑的重点。</li>
+<li><a href="http://blog.mtxcxin.cn/blog/git%E5%A6%82%E4%BD%95%E5%9B%9E%E6%BB%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93.html" target="_blank" rel="noopener">git如何回滚远程仓库</a>:使用git管理项目开发的过程中经常会碰到这种情况：某次提交已经push到了远程仓库，可是突然意识到“天哪，我怎么做了这么蠢的事情”。那么问题来了，怎么将远程代码库回滚呢？</li>
+<li><a href="https://certsimple.com/blog/javascript-equals-async-await" target="_blank" rel="noopener">ES2017’s async/await is the best thing to ever happen to JavaScript</a>: 扔掉 callback，扔掉 promise，安利 async/await</li>
+<li><a href="https://hackernoon.com/machine-learning-with-javascript-part-1-9b97f3ed4fe5" target="_blank" rel="noopener">Machine Learning with JavaScript : Part 1</a>: JS 机器学习</li>
+<li><a href="https://my.oschina.net/powertoolsteam/blog/955331" target="_blank" rel="noopener">JavaScript ES2017 中值得期待的功能 </a>:make javascript powerful!</li>
+<li><a href="http://mp.weixin.qq.com/s/rgVIG4_78UmovzupVe6XIQ" target="_blank" rel="noopener">React 源码剖析系列 － 不可思议的 react diff </a>:本文从源码入手，深入剖析 React diff 的不可思议之处。</li>
+</ul>
+<h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul>
+<li><a href="http://stormzhang.com/2017/06/19/stackoverflow-developer-survey-2017/?utm_source=tuicool&amp;utm_medium=referral" target="_blank" rel="noopener">STACK OVERFLOW 2017 开发者调查报告</a>:报告告诉我们：请珍惜身旁的女程序员。</li>
+<li><a href="https://segmentfault.com/a/1190000009819740" target="_blank" rel="noopener">为您的 Node 性能选择最佳的 JS 引擎</a>:不同js引擎下同样程序执行效率差异。附带一个神奇的网站:<a href="https://sqreen.github.io/node_engine_bench/" target="_blank" rel="noopener">Picking the best JS engine for your Node app’s performance </a></li>
+<li><a href="https://my.oschina.net/powertoolsteam/blog/913075" target="_blank" rel="noopener">Node.js 8有哪些重要功能和修复</a>:介绍Node.js 8版本中最重要的功能和修复。</li>
+<li><p><a href="https://www.oschina.net/translate/upgrading-from-node-6-to-node-8" target="_blank" rel="noopener">由 Node 6 升级至 Node 8：实际性能比较 </a>:性能的提升总是一件exciting的事情。</p>
+</li>
+<li><p><a href="https://juejin.im/post/592faca42f301e006bc791e0" target="_blank" rel="noopener">前端劝退指南</a>:2017前端开发指南，篇幅很长，请在家长陪同下观看</p>
+</li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzU0MzU0Nw==&amp;mid=2651375004&amp;idx=1&amp;sn=4e9f891ccce9b2b8d069fb9230b238e8&amp;chksm=bd240e888a53879ea82c21defbb04b6f64f107d9c00a977d3bcdb38a8f20b40a1d5a6e6fef07&amp;mpshare=1&amp;scene=1&amp;srcid=0620Xvw6la4lL34ld1HcJfEC#rd" target="_blank" rel="noopener">用空格缩进的程序员赚钱更多</a>:早说让你们用空格吧，还不信</li>
+</ul>
+
+        </div>
+        <div class="post-reply">
+            
+                <!-- 来必力City版安装代码 -->
+                <div id="lv-container" data-id="city" data-uid="MTAyMC8zMTU1MC84MTE0">
+                    <script type="text/javascript">
+                        (function(d, s) {
+                            var j, e = d.getElementsByTagName(s)[0];
+
+                            if (typeof LivereTower === 'function') { return; }
+
+                            j = d.createElement(s);
+                            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                            j.async = true;
+
+                            e.parentNode.insertBefore(j, e);
+                        })(document, 'script');
+                    </script>
+                    <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                </div>
+                <!-- City版安装代码已完成 -->
+            
+            
+        </div>
+    </div>
+</section>
+<script>
+    // 获取第一张图, 用以当封面背景图
+    var img = document.querySelectorAll('img')[0]
+
+    if (img) {
+        var header_box = document.querySelector('#header_box')
+        header_box.style.backgroundImage = 'url('+ img.src +')'
+    }
+</script>
+
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        Copyright © 易货嘀前端团队 2018
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/ehdfe-weekly/js/search_core.js"></script>
+<script src="/ehdfe-weekly/js/script.js"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

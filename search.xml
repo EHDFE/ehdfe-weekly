@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>最爱湖东行不足，绿杨阴里白沙堤</title>
+      <link href="/ehdfe-weekly/2018/03/19/29.%E6%9C%80%E7%88%B1%E6%B9%96%E4%B8%9C%E8%A1%8C%E4%B8%8D%E8%B6%B3%EF%BC%8C%E7%BB%BF%E6%9D%A8%E9%98%B4%E9%87%8C%E7%99%BD%E6%B2%99%E5%A0%A4/"/>
+      <content type="html"><![CDATA[<h3 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h3><ul><li><a href="https://segmentfault.com/a/1190000008263193" target="_blank" rel="noopener">邂逅柯里化</a>：如何将一个普通函数转化为柯里化函数呢？柯里化函数到底对开发有什么好处？</li><li><a href="https://zhuanlan.zhihu.com/p/34604934" target="_blank" rel="noopener">React16新特征总览</a>: React16究竟带来什么样的变化？这预示着React什么样的发展趋势？</li><li><a href="https://github.com/youngwind/blog/issues/109" target="_blank" rel="noopener">单页面应用路由实现原理：以 React-Router 为例</a>: 本文介绍了如何实现一个简单的单页应用的路由</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>脚踏实地，仰望星空~</title>
+      <link href="/ehdfe-weekly/2018/03/01/028.%E8%84%9A%E8%B8%8F%E5%AE%9E%E5%9C%B0%EF%BC%8C%E4%BB%B0%E6%9C%9B%E6%98%9F%E7%A9%BA/"/>
+      <content type="html"><![CDATA[<h2 id="本周热点"><a href="#本周热点" class="headerlink" title="本周热点"></a>本周热点</h2><ul><li><p><a href="http://www.geekpark.net/news/226949" target="_blank" rel="noopener">《旅行青蛙》离场，二十多年前的情怀电子鸡你还养不养？</a>: 随着时间流逝，多少人抛弃了他们当初口口声声的青蛙儿子？<br><img src="http://imgslim.geekpark.net/uploads/image/file/7a/21/7a21b0f27ca1e617046b9f12a0f85f86.jpg" alt="旅行青蛙"></p></li><li><p><a href="http://blog.csdn.net/bKMk01MZ3w/article/details/79314281" target="_blank" rel="noopener">无人货柜让用户即拿即走，「茶水时间」获千万级天使轮融资</a>：办公室的零食柜他们到底处于怎样的生活状态呢？货损率高，毛利低一直是他们不得不面临的问题。“茶水时间”似乎找到了新方案。</p></li><li><p>工信部副部长：今年 7 月 1 日前取消流量漫游费</p><p>工信部副部长陈肇雄在接受新华社记者专访时表示，工信部将推动基础电信企业加快开展套餐梳理和调整、系统开发和改造、测试和业务验证等工作，确保广大用户在今年 7 月 1 日前享受到这一红利。</p><p>陈肇雄说，工信部还将鼓励基础电信企业继续推进大流量互联网卡、阶梯式流量放心用等流量降费措施，确保移动网络流量资费年内至少降低 30%。在网络提速方面，工信部将推进实现百兆宽带普遍覆盖，启动千兆宽带试点，提高宽带速率，扩大公共场所免费上网范围和 4G 网络覆盖的广度和深度。</p></li></ul><h2 id="今天你优化了么？"><a href="#今天你优化了么？" class="headerlink" title="今天你优化了么？"></a>今天你优化了么？</h2><ul><li><p><a href="https://github.com/lcxfs1991/blog/issues/8" target="_blank" rel="noopener">React移动web极致优化 </a>: React中有哪些tips可以帮助我们优化整个应用呢？</p><ul><li>提升级项目性能，请使用immutable(props、state、store)</li><li>请pure-render-decorator与immutablejs搭配使用</li><li>请慎用setState，因其容易导致重新渲染</li><li>谨慎将component当作props传入</li><li>请将方法的bind一律置于constructor</li><li>请只传递component需要的props，避免其它props变化导致重新渲染（慎用spread attributes）</li><li>请在你希望发生重新渲染的dom上设置可被react识别的同级唯一key，否则react在某些情况可能不会重新渲染。</li><li>请尽量使用const element(无状态组件)</li></ul></li><li><p><a href="https://webfe.kujiale.com/electron-update-design/" target="_blank" rel="noopener">一套完整的 Electron 应用自动更新方案</a> : 一套完整的 Electron 应用自动更新方案</p></li></ul><h2 id="趣实现"><a href="#趣实现" class="headerlink" title="趣实现"></a>趣实现</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/34139676" target="_blank" rel="noopener">用Canvas画一只会跟着鼠标走的小狗</a>: 本问题的难点在于如何流畅地让小狗动起来~ <a href="https://fed.renren.com/html/walking-dog/index.html" target="_blank" rel="noopener">Demo</a></li><li><a href="https://hackernoon.com/redesigning-redux-b2baee8b8a38" target="_blank" rel="noopener">重新设计redux</a>:  虽然react更新了context api,但是redux还是很好用<ul><li>Setup配置方式</li><li>Simplified Reducers 简化reducers</li><li>Async/Await over Thunks 用 async/await 代替 thunks</li><li>Two Kinds of Actions 两种类型的actions</li><li>No More Action Types As Variables 简化 action的types</li><li>Reducers That Are Action Creators 省略 action creators</li><li><a href="https://github.com/rematch/rematch" target="_blank" rel="noopener">重构之后的redux</a> <a href="https://github.com/rematch/rematch" target="_blank" rel="noopener">https://github.com/rematch/rematch</a></li></ul></li></ul><h2 id="你真的知道吗？"><a href="#你真的知道吗？" class="headerlink" title="你真的知道吗？"></a>你真的知道吗？</h2><ul><li><a href="http://www.alloyteam.com/2016/07/httphttp2-0spdyhttps-reading-this-is-enough/" target="_blank" rel="noopener">HTTP,HTTP2.0,SPDY,HTTPS你应该知道的一些事</a>:从http1.0一路走来，http到底有哪些进步呢？</li><li><a href="https://dev.to/kepta/promising-promise-tips--c8f" target="_blank" rel="noopener">关于 Promise 的 9 个提示</a> (<a href="https://zhuanlan.zhihu.com/p/34224840?group_id=953911927437549568" target="_blank" rel="noopener">国语版</a>)</li><li><a href="https://medium.com/@peedutuisk/lesser-known-css-quirks-oddities-and-advanced-tips-css-is-awesome-8ee3d16295bb" target="_blank" rel="noopener">你或许不知道的CSS技巧</a></li><li><a href="https://zhuanlan.zhihu.com/p/31898262?utm_medium=social&amp;utm_source=qq" target="_blank" rel="noopener">学习Less-看这篇就够了</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>新的一年，新的开始~</title>
+      <link href="/ehdfe-weekly/2018/02/25/027.%E6%96%B0%E7%9A%84%E4%B8%80%E5%B9%B4%EF%BC%8C%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+      <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/027.1.jpeg" alt="post-cover"></p><h2 id="技术走过的路"><a href="#技术走过的路" class="headerlink" title="技术走过的路"></a>技术走过的路</h2><ul><li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&amp;mid=2651227799&amp;idx=1&amp;sn=0128323a196af43994a527499933b82f&amp;chksm=bd495f138a3ed6058c8efb162227d797ba1dd7aec78b29cc861acc008a118c090ea4ee4fc7fe&amp;mpshare=1&amp;scene=23&amp;srcid=02252NiHCgp4PR7JIpKJoSmJ#rd" target="_blank" rel="noopener">现代CSS进化史</a>: 故不积跬步，无以至千里；不积小流，无以成江海。css是如何进化成今天的样子呢？</li><li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&amp;mid=2651227848&amp;idx=1&amp;sn=536dcf60dd2d9df86d4092bd4c2cef9e&amp;chksm=bd495f4c8a3ed65af05a1624ea14de8712afa3c22298965744e27871d5b6665f57c5a6b3dcf2&amp;mpshare=1&amp;scene=23&amp;srcid=0228mHu3CkhAQS4arLgIEzMx#rd" target="_blank" rel="noopener">React是怎样炼成的</a>: 从字符串拼接时代而来，历经XHP,到JSX，React与前端共进步。</li></ul><h2 id="技术当下的路"><a href="#技术当下的路" class="headerlink" title="技术当下的路"></a>技术当下的路</h2><ul><li><a href="https://medium.com/webpack/webpack-4-beta-try-it-today-6b1d27d7d7e2" target="_blank" rel="noopener">webpack 4 — try it today!</a> webpack4来了，性能优化，新增零配置mode.又是一波迁移</li><li><a href="https://zhuanlan.zhihu.com/p/33792759" target="_blank" rel="noopener">React Context API 与模式变迁, Webpack 与 Web 优化, AI 界面生成</a><ul><li>React 16.3 新特性介绍</li><li>React’s ⚛️ new Context API</li><li>Service workers 介绍与使用</li><li>…</li></ul></li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/33617864" target="_blank" rel="noopener">React 是否保持 state 更新的顺序？</a>: <ul><li>同一个组件中，setState 是否有确定的顺序？是的。</li><li>不同组件中，setState 是否有确定的顺序？是的。</li><li>在 React 事件处理程序中，不论 setState() 调用了多少次，也不论 setState()被多少个组件调用，它们在事件结束时只会生成一次重新渲染。</li><li>在 React 16 和更早版本中，React 事件处理程序之外还没有默认的批处理。</li></ul></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>2018年的第一场雪@杭州</title>
+      <link href="/ehdfe-weekly/2018/01/26/026.2018%E5%B9%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E5%9C%BA%E9%9B%AA@%E6%9D%AD%E5%B7%9E/"/>
+      <content type="html"><![CDATA[<h2 id="过时新闻"><a href="#过时新闻" class="headerlink" title="过时新闻"></a>过时新闻</h2><ul><li><a href="https://mp.weixin.qq.com/s/cuQfWVNkOj0O4SC9uBl-vw" target="_blank" rel="noopener">ECharts 大版本 4.0 正式发布</a>：带来 8 项全新“黑科技”特性</li><li><a href="http://www.yystv.cn/p/2406" target="_blank" rel="noopener">任天堂LABO</a>：成为一名”硬盒玩家”</li></ul><h2 id="技术无关"><a href="#技术无关" class="headerlink" title="技术无关"></a>技术无关</h2><ul><li><a href="http://zj.qq.com/a/20180209/010360.htm" target="_blank" rel="noopener">蓝色钱江保姆放火案作出一审判决</a>：死刑</li></ul><h2 id="本周新闻"><a href="#本周新闻" class="headerlink" title="本周新闻"></a>本周新闻</h2><p> <img src="https://static.oschina.net/uploads/space/2018/0119/083503_aTpn_2720166.jpeg" alt=""></p><ul><li><a href="https://www.oschina.net/news/92573/bootstrap-4-0-0-released" target="_blank" rel="noopener">Bootstrap 4 正式发布！带来新的示例和新的主题</a></li><li><a href="https://zhuanlan.zhihu.com/p/33185341" target="_blank" rel="noopener">前端每周清单第 48 期</a>：Slack Webpack 构建优化，CSS 命名规范与用户追踪，Vue.js 单元测试</li><li><a href="https://zhuanlan.zhihu.com/p/33260215" target="_blank" rel="noopener">专访ECharts团队</a>：无KPI驱动如何做出成功开源项目</li><li><a href="https://mp.weixin.qq.com/s?__biz=MzA5NzMzMzYyMA==&amp;mid=2651247002&amp;idx=1&amp;sn=e4c9585a547f301ae54a61ae008408de&amp;chksm=8b500981bc278097355ac6556d45492113fa8de62c30e31e1c13ca927f84cfa66f3278fa4afe&amp;mpshare=1&amp;scene=1&amp;srcid=0127C5L0D8krrI99QU4lQCzP#" target="_blank" rel="noopener">Safari 11.1 将默认支持Service Workers</a></li><li><a href="https://github.com/webpack/webpack/releases/tag/v4.0.0-beta.0" target="_blank" rel="noopener">webpack v4.0.0 发布beta版本</a> Jarvis 将于正式版本发布之后计划支持。</li></ul><h2 id="一点小技能"><a href="#一点小技能" class="headerlink" title="一点小技能"></a>一点小技能</h2><ul><li><a href="http://blog.csdn.net/wgl3k77y9fr1k61t1as/article/details/79184751" target="_blank" rel="noopener">Canvas or SVG？一张好图，两手准备，就在 ECharts 4.0</a></li><li><a href="http://www.zhangxinxu.com/wordpress/2015/03/css3-object-position-object-fit/" target="_blank" rel="noopener">半深入理解CSS3 object-position/object-fit属性</a>: 让图片等可替换内容适应容器大小的一点儿小技能。</li><li><a href="https://github.com/camsong/blog/issues/3" target="_blank" rel="noopener">Immutable 详解及 React 中实践</a>:immutable的数据对于react编程有什么好处呢？</li></ul><h2 id="技术探讨"><a href="#技术探讨" class="headerlink" title="技术探讨"></a>技术探讨</h2><ul><li><a href="https://segmentfault.com/a/1190000013040438" target="_blank" rel="noopener">为什么React中 setState方法是异步的</a>:不知道大家有没有过这个疑问，React 中 setState() 为什么是异步的？这篇文章对其设计初衷做出解答</li><li><a href="https://medium.freecodecamp.org/lets-make-your-svg-symbol-icons-multi-colored-with-css-variables-cddd1769fca4" target="_blank" rel="noopener">Let’s make multi-colored icons with SVG symbols and CSS variables</a> 使用 css variables 实现彩色图标</li><li><a href="https://medium.com/javascript-scene/top-javascript-libraries-tech-to-learn-in-2018-c38028e028e6" target="_blank" rel="noopener">Top JavaScript Libraries &amp; Tech to Learn in 2018</a></li></ul><h2 id="如何优雅的装B"><a href="#如何优雅的装B" class="headerlink" title="如何优雅的装B"></a>如何优雅的装B</h2><ul><li><a href="https://carbon.now.sh/?bg=rgba(171,%20184,%20195,%201" target="_blank" rel="noopener">carbon.now.sh</a>&amp;t=cobalt&amp;l=auto&amp;ds=true&amp;wc=true&amp;wa=true&amp;pv=48px&amp;ph=32px&amp;ln=false):Share your source code beautifully</li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="http://www.ifanr.com/977830" target="_blank" rel="noopener">里面有大佬最喜欢的神奇女侠，大佬请拉我进开车群</a><br><img src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2018/01/015.jpg!1120" alt=""></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>今天，你登顶了吗</title>
+      <link href="/ehdfe-weekly/2018/01/12/025.%E4%BB%8A%E5%A4%A9%EF%BC%8C%E4%BD%A0%E7%99%BB%E9%A1%B6%E4%BA%86%E5%90%97%EF%BC%9F/"/>
+      <content type="html"><![CDATA[<h2 id="回顾2017"><a href="#回顾2017" class="headerlink" title="回顾2017"></a>回顾2017</h2><ul><li><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDA5NDcyMA==&amp;mid=2651684216&amp;idx=1&amp;sn=68b5af34fdb10cb89e0a1b06a59b2d30&amp;chksm=bd74d6978a035f81a9652a777f8ce211ea15d20f0e9fcfffd479490337434afc4440c94464d9&amp;scene=21" target="_blank" rel="noopener">国内热点事件的2017回顾</a></li><li><a href="http://www.zaobao.com.sg/zentertainment/celebs/story20171227-822018" target="_blank" rel="noopener">娱乐圈的2017回顾</a></li><li><a href="https://hypebeast.com/zh/2017/11/instagram-2017-year-in-review" target="_blank" rel="noopener">Instagram的2017回顾</a></li><li><a href="https://www.pornhub.com/insights/2017-year-in-review" target="_blank" rel="noopener">Pornhub的2017回顾</a></li><li><a href="https://www.oschina.net/news/92367/brutal-lifecycle-javascript-frameworks" target="_blank" rel="noopener">StackOverflow数据分析：JavaScript框架的残酷生命周期</a></li></ul><h2 id="展望2018"><a href="#展望2018" class="headerlink" title="展望2018"></a>展望2018</h2><ul><li><a href="http://blog.csdn.net/csdnnews/article/details/79029992" target="_blank" rel="noopener">冲顶大会各种外挂出现了</a></li><li><a href="http://www.geekpark.net/news/225892" target="_blank" rel="noopener">CES现场|在「赌城」,Google疯狂打广告</a>;<br><img src="http://imgslim.geekpark.net/uploads/image/file/54/57/5457520ec68c4bcc98dab4e9012d3aa6.jpg" alt=""></li></ul><h2 id="小技巧"><a href="#小技巧" class="headerlink" title="小技巧"></a>小技巧</h2><ul><li><a href="http://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&amp;mid=2650840838&amp;idx=1&amp;sn=5b8d653fa8b0e1e7d1dc630e844cd2f0&amp;chksm=80d3b46fb7a43d79086e77ce1f4e85d0d110b5426d8af6e942c96d3c5030fde738fde6725879&amp;mpshare=1&amp;scene=23&amp;srcid=0111dlNe7XBmjmndQIG2szJh#rd" target="_blank" rel="noopener">19 个常用的 JavaScript 简写方法</a>:让你的代码更简洁</li><li><a href="https://zhuanlan.zhihu.com/p/32823459?iam=aafe36b7b11f10c90993ea3fca0a95dc?utm_medium=social&amp;utm_source=qq" target="_blank" rel="noopener">Lodash 源码中的那些迷人的细节</a>: lodash作为一个广泛使用的工具库，其内部实现隐藏了哪些“小心思”？</li><li><a href="https://www.itcodemonkey.com/article/1872.html" target="_blank" rel="noopener">2017年12月份GitHub上最热门的JavaScript项目</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>从年末圣诞特别周刊到命运多舛的过时周刊</title>
+      <link href="/ehdfe-weekly/2017/12/22/024.%E4%BB%8E%E5%B9%B4%E6%9C%AB%E5%9C%A3%E8%AF%9E%E7%89%B9%E5%88%AB%E5%91%A8%E5%88%8A%E5%88%B0%E5%91%BD%E8%BF%90%E5%A4%9A%E8%88%9B%E7%9A%84%E8%BF%87%E6%97%B6%E5%91%A8%E5%88%8A/"/>
+      <content type="html"><![CDATA[<h3 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h3><ul><li><a href="http://mp.weixin.qq.com/s/bX7H2i2MVbph3DYV1hmDPQ" target="_blank" rel="noopener">2017 JavaScript生态圈调查报告</a> 回顾2017</li><li><a href="http://36kr.com/p/5110763.html" target="_blank" rel="noopener">2018 年最值得关注的 JavaScript 趋势</a> 展望2018</li><li><a href="http://www.sohu.com/a/211104317_176628" target="_blank" rel="noopener">微软正考虑添加 Python 为官方的 Excel 脚本语言</a> Python又是加入高考又是作为excel的脚本，起飞</li><li><a href="http://www.360doc.com/content/17/1210/01/48630098_711686160.shtml" target="_blank" rel="noopener">Python 语言将纳入高考内容之一</a> Python列入全国计算机等级考试，已进入山东小学教材，还将被加入浙江省高考科目</li><li><a href="http://finance.sina.com.cn/stock/usstock/c/2017-12-21/doc-ifypxrpp3136485.shtml?luicode=20000061&amp;lfid=4187344330066944&amp;featurecode=newtitle" target="_blank" rel="noopener">苹果承认让旧iPhone变慢：防止意外关机延长寿命</a> 苹果爸爸越来越任性了</li><li><a href="http://finance.qq.com/a/20171222/017066.htm" target="_blank" rel="noopener">途牛被爆裁员400人员工惊呼遭“血洗” 近两年股价已腰斩</a></li><li><a href="https://www.oschina.net/news/92048/netmarketshare-2017-12" target="_blank" rel="noopener">12 月浏览器市场份额：量子火狐后劲不足</a> IE为什么还不消失</li></ul><h3 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/32148338?utm_source=wechat_session&amp;utm_medium=social" target="_blank" rel="noopener">webpack 为什么这么难用？</a> 原来不是只有我觉得webpack难用，那我就放心了</li><li><a href="https://juejin.im/post/5a2a730cf265da431f4afd35" target="_blank" rel="noopener">Weex在达人店的一年实践</a></li><li><a href="https://mp.weixin.qq.com/s/mJLMi4834cSTkBZ-wnwRfg" target="_blank" rel="noopener">Apple 在 Safari Technology Preview 46 默认开启 Service Worker</a> 感觉PWD势不可挡了</li><li><a href="https://juejin.im/post/5a35d58ef265da431a434441" target="_blank" rel="noopener">介绍 Turbo：比 Yarn 和 NPM 快 5 倍，可以在本地浏览器中运行</a> 又一个包管理器轮子</li><li><a href="https://segmentfault.com/a/1190000012469713" target="_blank" rel="noopener">ajax跨域，这应该是最全的解决方案了</a></li></ul><h3 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h3><ul><li><a href="http://www.geekpark.net/news/225330" target="_blank" rel="noopener">滴滴出行完成新一轮 40 亿美元融资；荣耀宣称成为互联网手机份额第一品牌</a> 前美国秘密 UFO 项目负责人：曾有外星人光临地球</li><li><a href="https://www.huxiu.com/article/226574.html" target="_blank" rel="noopener">为什么说买比特币很难赚钱？</a> 其实你和财务自由只差几个币。。。</li><li><a href="http://www.sohu.com/a/211379325_635110" target="_blank" rel="noopener">App Store最严审核规则出台：商业模板、跨平台工具遭血洗</a></li><li><a href="https://mp.weixin.qq.com/s/Tp6z8a7qWk1ORcRBVK2hkA" target="_blank" rel="noopener">苹果新审核规则被证实为假消息</a> 苹果新审核规则被证实为假消息</li><li><a href="http://www.ifanr.com/954602" target="_blank" rel="noopener">3 万元的 iMac Pro 有多强？外媒上手告诉你答案</a><br><img src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2017/12/iMac-Pro_21.png" alt=""><br><img src="http://ifanr-cdn.b0.upaiyun.com/wp-content/uploads/2017/12/iMac-Pro_23.png" alt=""></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>缺了三个人的周会</title>
+      <link href="/ehdfe-weekly/2017/12/11/023.%E7%BC%BA%E4%BA%86%E4%B8%89%E4%B8%AA%E4%BA%BA%E7%9A%84%E5%91%A8%E4%BC%9A(2017-12-11-2017-12-15)/"/>
+      <content type="html"><![CDATA[<h3 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h3><ul><li><a href="http://www.sohu.com/a/209853823_465976" target="_blank" rel="noopener">国内安卓统一推送联盟名单出炉：谷歌成为「观察员」</a> 虽然还是无法用谷歌，但是希望总是有的</li></ul><p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1513336178588&amp;di=a14b2aa8e50d22baab1af003ed8ca816&amp;imgtype=0&amp;src=http%3A%2F%2Farticle.fd.zol-img.com.cn%2Ft_s640x2000%2Fg1%2FM0B%2F08%2F01%2FCg-4jVOaj6aIVjeYAAK1YT5rCgwAAOQNwKCNKgAArV5733.jpg" alt=""></p><ul><li><p><a href="http://mp.weixin.qq.com/s?__biz=MzAwNDcyNjI3OA==&amp;mid=2650840743&amp;idx=1&amp;sn=b8060aeb2651458bbbd055ca029c153f&amp;chksm=80d3b5ceb7a43cd88ececddba422dc65ed561f3aedf6dd15972c8455b1decea8d49121bb5dc5&amp;mpshare=1&amp;scene=23&amp;srcid=12131qdSNI9BANgNoHmqePtX#rd" target="_blank" rel="noopener">2017 前端大事件和趋势回顾，2018 何去何从？</a>:</p><ul><li>1、React 16 和 MIT 许可证</li><li>2、下一代 Web 应用模型 — PWA</li><li>3、Yarn 快速普及，NPM 跟上脚步</li><li>4、WebAssembly 受主流浏览器支持</li><li>5、Angular 发布了 v4，以及……v5</li><li>6、Vue.js 继续流行</li><li>7、CSS-in-JS 在争议中沉淀</li><li>8、静态网站卷土重来</li><li>9、GraphQL 继续挑战 REST</li><li>10、TypeScript 和 Flow 受追捧</li></ul></li><li><p><a href="http://baijiahao.baidu.com/s?id=1583851071258344749&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">赵薇夫妇涉空壳交易上百投资人提告索赔将提出诉讼</a> 马云：我和赵薇不熟。</p></li></ul><p><img src="http://n.sinaimg.cn/translate/20170511/D-du-fyeyqem3735504.jpg" alt=""></p><h3 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h3><ul><li><p><a href="https://www.cnblogs.com/CrazySL/p/5885498.html" target="_blank" rel="noopener">fork仓库与上游保持更新</a> 团队协作，为了规范，一般都是fork组织的仓库到自己帐号下，再提交pr，组织的仓库一直保持更新</p></li><li><p><a href="https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-cn.md#%E6%88%91%E4%B8%8D%E7%9F%A5%E9%81%93%E6%88%91%E5%81%9A%E9%94%99%E4%BA%86%E4%BA%9B%E4%BB%80%E4%B9%88" target="_blank" rel="noopener">Git飞行规则(Flight Rules)</a> git使用过程中的常见疑问，总有一个能解决你的问题</p></li><li><p><a href="http://www.cnblogs.com/Wayou/p/things_you_dont_know_about_frontend.html" target="_blank" rel="noopener">前端不为人知的一面–前端冷知识集锦</a> 前端已经被玩儿坏了！像console.log()可以向控制台输出图片等炫酷的玩意已经不是什么新闻了，像用||操作符给变量赋默认值也是人尽皆知的旧闻了，今天看到Quora上一个帖子，瞬间又GET了好多前端技能，一些属于技巧，一些则是闻所未闻的冷知识，一时间还消化不过来。现分类整理出来分享给大家，也补充了一些平时的积累和扩展了一些内容。</p></li><li><p><a href="http://8btc.com/thread-27448-1-1.html" target="_blank" rel="noopener">nodejs开发加密货币</a></p></li></ul><p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1513335697243&amp;di=49e25396540757ab90751e58437a88c1&amp;imgtype=0&amp;src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20161013%2Fb8178b420644480ea341363495744b0b_th.jpg" alt=""></p><ul><li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&amp;mid=2651227435&amp;idx=2&amp;sn=3ebe8df545436c3ef2cd1443305a5a4e&amp;chksm=bd495caf8a3ed5b9f486b207866f7635ab95589d00cd03dc0ead2496aeb0f457c9fabe056230&amp;mpshare=1&amp;scene=23&amp;srcid=1213nUgw2uUWeW5WI0UNC1Cz#rd" target="_blank" rel="noopener">import、require、export、module.exports 混合详解</a> import、require、export、module.exports混合起来写的时候，你的脑子还清醒么？</p></li><li><p><a href="https://www.nature.com/articles/nature16961.epdf?shared_access_token=eKK0163L_QWhJOnSS4Wet9RgN0jAjWel9jnR3ZoTv0OivKk3lXs6SxMz535byYwHqIVouJ6qKrtxfOrBqgMI8z2GAxKloOrZJt2uhpOg7ZJrYyYlxydsd7C2FJN6_Oeui0xLpQ4rv5dW4j8qo7PZCEpVRl6vsFBUeBY00_dlKUE%3D" target="_blank" rel="noopener">通过深度神经网络和树搜索来掌握围棋的游戏</a></p></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> 虚拟货币 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>凛冬将至</title>
+      <link href="/ehdfe-weekly/2017/12/04/022.%E5%87%9B%E5%86%AC%E5%B0%86%E8%87%B3(2017-12-04-2017-12-08)/"/>
+      <content type="html"><![CDATA[<h1 id="行业新闻"><a href="#行业新闻" class="headerlink" title="行业新闻"></a>行业新闻</h1><ul><li><p><a href="https://zhuanlan.zhihu.com/p/31783676?utm_medium=social&amp;utm_source=qq" target="_blank" rel="noopener">Ant Design 3.0 驾到</a>:</p><p><img src="http://image.tf56.com/dfs/group1/M00/42/62/CiFBCVot1uuAIQN8AAJ6ltFP-bQ643.jpg" alt=""></p><ul><li>全新的颜色系统，全新的调色板</li><li>组件新设计：基本字体从12px编程了14px</li><li>组件重写-Table,Form,Steps</li><li>全新的组件 - List Divder</li><li>全面支持React16和ES模块</li><li>更有好的TypeScript支持</li></ul></li></ul><p><a href="http://www.geekpark.net/news/224595" target="_blank" rel="noopener">年度可穿戴设备 | Apple Watch Series 3：属于智能手表的「独立战争」</a>:Apple Watch Series 3 提供了 LTE 的版本，拥有完整的通讯功能，就像一部戴在手腕上的小手机</p><h1 id="技术相关"><a href="#技术相关" class="headerlink" title="技术相关"></a>技术相关</h1><ul><li><a href="https://www.w3cplus.com/css3/a-guide-to-flexbox-new.html" target="_blank" rel="noopener">一个完整的Flexbox指南</a>:Flexbox布局完整指北</li><li><a href="https://github.com/xingbofeng/css-grid-flex" target="_blank" rel="noopener">拥抱未来的CSS布局方式：flex与grid布局</a>:拥抱未来的CSS布局方式：flex与grid布局</li><li><a href="https://mp.weixin.qq.com/s/zWs_yXVr5pwHFEjwFQG8Zw" target="_blank" rel="noopener">chrome浏览器的各种小技巧</a>：教你玩转chrome</li></ul><h1 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h1><ul><li><a href="https://github.com/camsong/blog/issues/5" target="_blank" rel="noopener">CSS Modules 详解及 React 中实践</a>:讲一些你知道的不知道的关于 css modules的姿势。</li><li><a href="http://www.cnblogs.com/flying_bat/p/3324769.html" target="_blank" rel="noopener">Git中的AutoCRLF与SafeCRLF换行符问题</a>:在我们提交代码的时候，关于crlf和lf，git做了哪些工作？</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> grid </tag>
+            
+            <tag> Flexbox </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Jarvis is coming!</title>
+      <link href="/ehdfe-weekly/2017/11/21/021.JarvisIsComming(2017-11-13-2017-11-17)/"/>
+      <content type="html"><![CDATA[<h3 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h3><p><img src="http://image.tf56.com/dfs/group1/M00/3E/FE/CiFBCVoWjl-AA7u6AAUdnfAubOM162.png" alt=""></p><ul><li>易货嘀前端工具 Jarvis即将发布1.0版，敬请期待。</li><li><a href="http://www.geekpark.net/news/224211" target="_blank" rel="noopener">PUBG 国服代理确定：腾讯「吃鸡」，和这背后的故事</a>：大吉大利，腾讯吃鸡。11 月 22 日上午，腾讯官方微博正式宣布与 PUGB 公司达成战略合作，获得《PUBG》（Playerunknown’s Battlegrounds，国内代理中文名未定）中国独家代理运营权。经过漫长的等待，这款今年最炙手可热的游戏，终于能「名正言顺」地出现在中国玩家面前。</li><li><a href="http://tech.163.com/17/1122/10/D3RDV25S00097U7R.html" target="_blank" rel="noopener">网购火车票也可微信支付了 线下将逐步支持</a><br><img src="http://cms-bucket.nosdn.127.net/eb2c64ca275f441684d24c05cc63354920171122105750.jpeg?imageView&amp;thumbnail=550x0" alt=""></li><li><a href="http://tech.sina.com.cn/d/i/2017-11-20/doc-ifynwnty5554097.shtml" target="_blank" rel="noopener">科学家研发“隐形衣”新技术 光学芯片弯曲光线</a>:据国外媒体报道，以色列科学家研发了一种斗篷型装置，能够将照射到物体上的光线散射出去，使其无法被探测到。可以被视作传说中的“隐形衣”。</li><li><a href="http://www.techweb.com.cn/it/2017-11-21/2608890.shtml" target="_blank" rel="noopener">顺丰在网上拍走两架波音747 共花费3.2亿元 </a>：祝空陆联运越办越好</li><li><a href="http://digi.163.com/17/1128/06/D4ACHH9I001680N8.html" target="_blank" rel="noopener">GitHub：全球开发者2400万人 非洲仅有50万人</a>：其中亚洲710万，北美 590 万，欧洲 530 万。从开发者角度来看，新加入 670 万开发者，其有 100 万的开发者来自美国，69 万来自中国。</li></ul><h3 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h3><ul><li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&amp;mid=2651227335&amp;idx=1&amp;sn=54bbf426f7b8358fddcb4a3901255eb3&amp;chksm=bd495d438a3ed45517ce21f33cdd457fb9201ba34d6723a1104df8a9bc0a934737f0df92f9a7&amp;mpshare=1&amp;scene=23&amp;srcid=1124Gph1KGpiTh1R94cxPjxJ#rd" target="_blank" rel="noopener">Git的4个阶段的撤销更改</a>:git如何撤销在各个阶段的误操作呢？</li></ul><table><thead><tr><th>阶段</th><th>查看不同</th><th>撤销</th></tr></thead><tbody><tr><td>工作区</td><td>git diff</td><td>git checkout . 或者 git reset –hard</td></tr><tr><td>暂存区</td><td>git diff –cached</td><td>git reset  get checkout .  或者 git reset –hard</td></tr><tr><td>本地仓库</td><td>git diff master origin/master</td><td>git reset –hard origin/master</td></tr><tr><td>远程仓库</td><td></td><td>git reset –hard HEAD^  git push -f</td></tr></tbody></table><ul><li><a href="http://www.ruanyifeng.com/blog/2015/07/flex-examples.html" target="_blank" rel="noopener">通过给一个骰子学会flex布局</a></li></ul><h3 id="Node每周学习-stream"><a href="#Node每周学习-stream" class="headerlink" title="Node每周学习- stream"></a>Node每周学习- stream</h3><ul><li><a href="https://segmentfault.com/a/1190000000357044" target="_blank" rel="noopener">为什么需要 Stream 呢</a>:和你唠唠为什么要需要stream</li><li><a href="http://www.dengzhr.com/node-js/847" target="_blank" rel="noopener">读写流Stream</a>: 对读写流的方法属性，监听事件做了个汇总，并且有比较生动的例子，值得推荐</li><li><a href="http://mp.weixin.qq.com/s?__biz=MzAxMjA5ODQwMQ==&amp;mid=2455058824&amp;idx=1&amp;sn=ee11da0c41f5fa2e19e84c798d9fa6b1&amp;chksm=8c169786bb611e908972b10dd115f4f101302a0217746f7bd8e8a8f221311e336267dba39ac8&amp;mpshare=1&amp;scene=23&amp;srcid=0913I0WgGJYNgPGb7NV1r6FX#rd" target="_blank" rel="noopener">深入理解 Node Stream 内部机制</a></li></ul><h3 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/31331407" target="_blank" rel="noopener">谁说 AI 找不到好的实现场景了，这个网站用深度学习来生成 Logo，作者每月能够赚到46万</a>:好的设计总是赏心悦目，这是一个给你生成赏心悦目logo的网站。</li><li><a href="https://zhuanlan.zhihu.com/p/31436518?utm_medium=social&amp;utm_source=wechat_session" target="_blank" rel="noopener">全面革新的「火狐」Firefox Quantum 究竟有多快</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nodejs </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>大佬们归来&amp;狂欢吃土</title>
+      <link href="/ehdfe-weekly/2017/11/11/020.%E5%A4%A7%E4%BD%AC%E4%BB%AC%E5%BD%92%E6%9D%A5&amp;%E7%8B%82%E6%AC%A2%E5%90%83%E5%9C%9F(2017-11-13-2017-11-17)/"/>
+      <content type="html"><![CDATA[<p>￼<img src="http://chuantu.biz/t6/142/1510796558x2890173729.jpg" alt="吃土"></p><h3 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h3><ul><li><a href="https://mp.weixin.qq.com/s/y3LrwjEDSL-eTaRUfLPDcA" target="_blank" rel="noopener">1682亿背后丨一分钟看懂天猫双11</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MjM5NjAzNDQ4MA==&amp;mid=2651790147&amp;idx=1&amp;sn=119fad2e592a570fc66dbcedb38bdebd&amp;chksm=bd14d99c8a63508a23e8fdbff37799d8530e4859d8dcf378ef7e6c8bedf32a3805dee501b938&amp;scene=38#wechat_redirect" target="_blank" rel="noopener">小蓝单车正式宣告解散、俞永福调任阿里投资工作组组长、食药监总局拟禁止网售处方药、网易云音乐用户数破4亿</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MjM5NjAzNDQ4MA==&amp;mid=2651790143&amp;idx=1&amp;sn=72c822389791680c10f7fe879b15da48&amp;chksm=bd14d9e08a6350f6b62a68794f81272b361b9c83801b11d48ae9f8e87c893b18ab46ddb8ae9b&amp;scene=38#wechat_redirect" target="_blank" rel="noopener">360投资100亿进军短视频领域、京东推无人智能售药柜、全民K歌推线下自助店、携程通报亲子园事件进展：园长刑拘两副总裁停职</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MjM5NjAzNDQ4MA==&amp;mid=2651790139&amp;idx=1&amp;sn=2cb0c2766fff0e451e1325bc27a5aedb&amp;chksm=bd14d9e48a6350f21ed2be578c118b2e3d35d450a9cddcf65eb0ed1e129469c436062393cb81&amp;scene=38#wechat_redirect" target="_blank" rel="noopener">网易吃鸡大逃杀改版为军事演习、互联网个人征信平台开始筹建、微信推出商业保险线上一键理赔服务、领英在中国禁止个人发布招聘信息</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MjM5NjAzNDQ4MA==&amp;mid=2651790135&amp;idx=1&amp;sn=54c4dd682e49a22f17b3e652315af901&amp;chksm=bd14d9e88a6350fe87db73819acfb5318384eb5bc3db415f4ffd66c749b5dcc4afbdc4095f7b&amp;scene=38#wechat_redirect" target="_blank" rel="noopener">马云：双11我们不赚钱、支付宝上线帮朋友还花呗功能、贾跃亭发函称无力履行乐视借款承诺、腾讯发布人工智能助手腾讯叮当</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzIxNDEzMjQwNw==&amp;mid=2648948084&amp;idx=1&amp;sn=8d42019bb4d36b5fa25289ab102daca9&amp;chksm=8fbb2eacb8cca7ba052abf3515e44e660a80acb350195994184d973487e5b759bbf8652cd9ab&amp;scene=38#wechat_redirect" target="_blank" rel="noopener">不得了！日本出版社竟是这样吸引死宅学编程的；谷歌推TensorFlow Lite：移动端部署AI；Element 1.4.10</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzIxNDEzMjQwNw==&amp;mid=2648948074&amp;idx=1&amp;sn=a08ad1d396b7738a005768920e75ab5b&amp;chksm=8fbb2eb2b8cca7a433d4c0c552accac73f6b5f0e86fde59f5505aca26d80fd111652889c7bae&amp;scene=38#wechat_redirect" target="_blank" rel="noopener">11月编程语言排行榜：Python逆袭C#上升到第4；李彦宏回北大当助教；最新JDK 版本发布计划；Kotlin 1.1.60</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzIxNDEzMjQwNw==&amp;mid=2648948067&amp;idx=1&amp;sn=3fd4d35b0268f073fd5ad034c58cdccb&amp;chksm=8fbb2ebbb8cca7adf6bf445f74b0c6bb299ffa0699647a7da7d07e7632057ceb5975f0478bdb&amp;scene=38#wechat_redirect" target="_blank" rel="noopener">腾讯又发新福利，员工可免费享用早餐啦；马云《功守道》完整版上线；IBM宣布20量子位计算机；Puppeteer 0.13发布</a></li><li><a href="https://www.mozilla.org/en-US/firefox/" target="_blank" rel="noopener">Firefox Quantum 发布</a><ul><li>2x Faster</li><li>30% lighter than Chrome</li><li>Smooth browsing</li></ul></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzIxNDEzMjQwNw==&amp;mid=2648948067&amp;idx=1&amp;sn=3fd4d35b0268f073fd5ad034c58cdccb&amp;chksm=8fbb2ebbb8cca7adf6bf445f74b0c6bb299ffa0699647a7da7d07e7632057ceb5975f0478bdb&amp;scene=38#wechat_redirect" target="_blank" rel="noopener">腾讯又发新福利，员工可免费享用早餐啦；马云《功守道》完整版上线；IBM宣布20量子位计算机；Puppeteer 0.13发布</a></li></ul><h3 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/30899810" target="_blank" rel="noopener">Node.js 9 有哪些新东西</a><ul><li>默认开启HTTP/2</li><li>util 模块提供了 isDeepStrictEqual 方法</li><li>util 提供了 callbackify 方法</li><li>提供了错误码</li></ul></li><li><a href="https://juejin.im/post/59f1c484f265da431c6f8940?utm_source=wechat" target="_blank" rel="noopener">JS 装饰器（Decorator）场景实战</a></li><li><a href="https://hacks.mozilla.org/2017/11/entering-the-quantum-era-how-firefox-got-fast-again-and-where-its-going-to-get-faster/" target="_blank" rel="noopener">Entering the Quantum Era—How Firefox got fast again and where it’s going to get faster</a></li><li><a href="https://cnodejs.org/topic/5a014cbe235953e84e47d543" target="_blank" rel="noopener">Promise 必知必会（十道题)</a>：测验Promise的十道题，自己看下会做几道吧~</li></ul><h3 id="Node每周学习-events"><a href="#Node每周学习-events" class="headerlink" title="Node每周学习- events"></a>Node每周学习- events</h3><p>Node events模块儿虽然简单，源码也只有不足500行，却是Nodejs实现“事件驱动，异步非阻塞”的基础，许多后续继续介绍的模块都是基于events模块。本次带来它的一些高阶用法以及它实现源码分析。</p><ul><li><a href="http://javascript.ruanyifeng.com/nodejs/events.html#toc7" target="_blank" rel="noopener">Events模块概览</a></li><li><a href="http://www.infoq.com/cn/articles/tyq-nodejs-event" target="_blank" rel="noopener">Node.js的事件机制</a>:虽是12年的文章，但依旧很有技术深度。</li><li><a href="http://www.jianshu.com/p/a306c36f5e00" target="_blank" rel="noopener">node的事件机制</a></li><li><a href="https://exp-team.github.io/blog/2017/03/22/js/node_event/" target="_blank" rel="noopener">探索nodeJS事件机制源码</a></li></ul><h3 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h3><ul><li><a href="http://javascript.ruanyifeng.com/bom/performance.html" target="_blank" rel="noopener">Performance API</a>:利用Performance API测量网站性能，提供以前没有办法做到的精度。</li><li><a href="https://zhuanlan.zhihu.com/p/30389490?utm_medium=social&amp;utm_source=wechat_session" target="_blank" rel="noopener">使用 Paint Timing API 提高性能</a>:传统上，前端性能主要集中在页面加载时间上，来作为重要的性能指标。商业网站性能将显示后端方面的粒度级的性能指标，如数据库查找时间、模板编译、服务器响应时间等等。</li><li><a href="https://mp.weixin.qq.com/s/IPNv-JE4Y9Gd6744gKrI1Q" target="_blank" rel="noopener">VS Code v.s Atom-IDE：Web 开发哪家强？</a></li><li><a href="https://mp.weixin.qq.com/s/oPDpfqNA1gaqgly47XNY9A" target="_blank" rel="noopener">给 Web 开发人员推荐的文档生成工具</a></li></ul>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>容姐下周回归！</title>
+      <link href="/ehdfe-weekly/2017/11/06/019.%E5%AE%B9%E5%A7%90%E4%B8%8B%E5%91%A8%E5%9B%9E%E5%BD%92(2017.11.06-2017.11.10)/"/>
+      <content type="html"><![CDATA[<h3 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h3><ul><li><a href="http://www.techweb.com.cn/it/2017-11-06/2602327.shtml" target="_blank" rel="noopener">摩拜单车进军共享车领域</a>: 一家接着一家共享汽车倒闭的同时摩拜竟然选择杀入？<br><img src="http://upload.techweb.com.cn/2017/1106/1509935280615.jpg" alt=""></li><li><a href="http://zj.qq.com/a/20171107/026919.htm" target="_blank" rel="noopener">杭州人能坐上复兴号高铁了！票价不变</a>: WiFi全覆盖、舒适度更高、座位宽敞很多</li><li><a href="https://www.cia.gov/news-information/press-releases-statements/2017-press-releases-statements/cia-releases-additional-files-recovered-in-ubl-compound-raid.html" target="_blank" rel="noopener">CIA公布了本拉登电脑中的信息清单</a>: 内容有蝙蝠侠、火影忍者、海贼王、最终幻想等等</li><li><a href="http://www.cnbeta.com/articles/tech/668095.htm" target="_blank" rel="noopener">阿里90后盲人工程师传递火炬</a> 我是码农我自豪，有梦想谁都了不起</li><li><a href="http://zj.qq.com/a/20171109/017223.htm" target="_blank" rel="noopener">男子求爱不成把女生从19楼抛下 一审被判死刑</a> 审判结果出来了，心疼连连pay和房东一秒</li><li><a href="http://tech.sina.com.cn/i/2017-11-09/doc-ifynsait6562515.shtml" target="_blank" rel="noopener">携程：亲子园今起闭园整顿 过渡期给予家长2周带薪假</a> 携程在手，骗完就走</li></ul><h3 id="技术拓展"><a href="#技术拓展" class="headerlink" title="技术拓展"></a>技术拓展</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/30796007?utm_medium=social&amp;utm_source=wechat_session" target="_blank" rel="noopener">Preact：一个备胎的自我修养</a>: 由于React Licence的问题，一个迁移成本低，体量小的替代产品。</li><li><a href="https://devhints.io/react" target="_blank" rel="noopener">React.js cheatsheet</a>:React is a JavaScript library for building user interfaces. This guide targets React v15 to v16.</li><li><a href="http://taobaofed.org/blog/2017/02/10/why-rax/" target="_blank" rel="noopener">Why Rax? 无线端的解决方案</a> React 是一种标准，Rax 是对该标准的一个实现。</li><li><a href="http://efe.baidu.com/blog/echarts-3-8-0/" target="_blank" rel="noopener">ECharts v3.8 发布：树图、SVG 渲染（beta）、ES Module</a> 在 ECharts 新发布的 3.8 版本 中，新加入了 树图，支持 横向布局、纵向布局、径向布局；新加入了 SVG 渲染支持（beta 版） 的支持，从而可以根据自己的需要，选择 SVG 或者 Canvas 作为渲染引擎；代码的模块系统改用 ES Module，从而能够受益于 tree shaking 减小 bundle 的体积；同时开放了构建脚本协助用户进行 自定义模块、语言地构建。</li></ul><h3 id="Node每周学习-Buffer"><a href="#Node每周学习-Buffer" class="headerlink" title="Node每周学习-Buffer"></a>Node每周学习-Buffer</h3><ul><li><a href="http://www.ruanyifeng.com/blog/2014/12/unicode.html" target="_blank" rel="noopener">Unicode与JavaScript详解</a></li><li><a href="http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html" target="_blank" rel="noopener">字符编码笔记：ASCII，Unicode 和 UTF-8</a></li><li><a href="https://dremy.cn/blog/nodejs-module-buffer" target="_blank" rel="noopener">Node.js 模块之 Buffer</a></li><li><a href="http://zhenhua-lee.github.io/node/buffer.html" target="_blank" rel="noopener">Node源码解析 – buffer</a></li><li><a href="http://www.ruanyifeng.com/blog/2016/11/byte-order.html" target="_blank" rel="noopener">理解字节序</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> node </tag>
+            
+            <tag> 共享汽车 </tag>
+            
+            <tag> buffer </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>致富之路</title>
+      <link href="/ehdfe-weekly/2017/10/30/018.%E7%A7%8B%E9%A3%8E%E7%91%9F%E7%91%9F(2017.10.30-2017.11.03)/"/>
+      <content type="html"><![CDATA[<p><img src="http://cms-bucket.nosdn.127.net/catchpic/9/9e/9e51a1c08eae82cf967db141cf138bce.jpg?imageView&amp;thumbnail=550x0" alt="post-cover"></p><h3 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h3><ul><li><a href="http://www.cnbeta.com/articles/tech/666759.htm" target="_blank" rel="noopener">中国电信官方客户端被植入病毒 用来挖矿</a>: 挖矿致富</li><li><a href="https://time.geekbang.org/column/article/631" target="_blank" rel="noopener">硅谷AI人才竞争白热化，年薪50万美元起跳</a>: AI致富</li><li><a href="https://time.geekbang.org/column/article/609" target="_blank" rel="noopener">深度学习库大排名</a>: TensorFlow排名第一, PyTorch 第五</li><li><a href="http://tech.163.com/17/1102/19/D28TSCJB00097U7R.html" target="_blank" rel="noopener">蓝翔技校开设电竞专业</a>: 游戏致富</li><li><a href="http://36kr.com/p/5100908.html" target="_blank" rel="noopener">小程序更新了两大功能</a>: 1.开通内嵌网页功能; 2.可关联公众号提升至 500 个</li><li><a href="https://time.geekbang.org/column/article/669" target="_blank" rel="noopener">iOS11.1正式版发布更新</a>:<ul><li>修复WiFi漏洞</li><li>3D Touch 功能回归</li><li>新增了 70 多种表情符号…</li></ul></li></ul><h3 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/30552148" target="_blank" rel="noopener">JS 中的内存管理</a>:<ul><li>引用计数垃圾回收：“对象有没有其他对象引用到它”，如果没有引用指向该对象, 对象将被垃圾回收机制回收。（IE6，7）</li><li>标记-清除算法：“对象是否可以获得””。所有对JavaScript垃圾回收算法的改进都是基于标记-清除算法的改进.（现代浏览器）</li><li>常见内存泄漏:<ol><li>全局变量;</li><li>未销毁的定时器和回调函数;</li><li>闭包;</li><li>DOM引用;</li></ol></li></ul></li></ul><h3 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h3><ul><li><a href="https://www.zhihu.com/question/22919326/answer/252382602" target="_blank" rel="noopener">Windows 下有哪些能极大地提高工作效率的软件？</a></li><li><a href="https://zhuanlan.zhihu.com/p/30611859?utm_medium=social&amp;utm_source=qq" target="_blank" rel="noopener">macOS 上都有哪些既免费、又实用的工具？</a></li><li><a href="https://juejin.im/post/59f938ad51882529642100e4" target="_blank" rel="noopener">微信小程序音频功能开发实(cai)践(keng)</a></li><li><a href="https://juejin.im/post/59f74c7ef265da432840253d" target="_blank" rel="noopener">用wxDraw.js制作酷炫的小程序canvas动画</a></li><li><a href="https://juejin.im/entry/59fa7cbbf265da430405f3da/detail" target="_blank" rel="noopener">Angular 5 正式版发布(带来大量的改动),以及对应的脚手架 1.5.0发布(适配 NG5)</a>经过几次跳票.NG5正式版已经到来..带来一些有意思的东西,编译性能提升,支持导入装饰器,管道的国际化(数字及日期处理这些),zone 异步处理的改善,新的路由生命周期事件,表单及 htpp模块的完善,以及支持 rxj 5.5 等等!!!</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> 微信小程序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>中共十九大闭幕</title>
+      <link href="/ehdfe-weekly/2017/10/27/017.%E4%B8%AD%E5%85%B1%E5%8D%81%E4%B9%9D%E5%A4%A7%E9%97%AD%E5%B9%95(2017.10.23-2017.10.27)/"/>
+      <content type="html"><![CDATA[<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1509719966&amp;di=e89a0f0d465ad34bf0969d6bce398643&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fcms-bucket.nosdn.127.net%2Fcatchpic%2F4%2F40%2F40126c0c425dee1c8037c5c3238cd50c.png%3FimageView%26amp%3Bthumbnail%3D550x0" alt="post-cover"></p><h3 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h3><ul><li><a href="https://baike.baidu.com/item/中国共产党第十九次全国代表大会/1629417?fr=aladdin" target="_blank" rel="noopener">中共十九大闭幕</a> <ul><li>大会主题：<ul><li>不忘初心，牢记使命，高举中国特色社会主义伟大旗帜，决胜全面建成小康社会，夺取新时代中国特色社会主义伟大胜利，为实现中华民族伟大复兴的中国梦不懈奋斗。</li></ul></li><li>大会报告：<ul><li>一、过去五年的工作和历史性变革；</li><li>二、新时代中国共产党的历史使命；</li><li>三、新时代中国特色社会主义思想和基本方略；</li><li>四、决胜全面建成小康社会，开启全面建设社会主义现代化国家新征程；</li><li>五、贯彻新发展理念，建设现代化经济体系；</li><li>六、健全人民当家作主制度体系，发展社会主义民主政治；</li><li>七、坚定文化自信，推动社会主义文化繁荣兴盛；</li><li>八、提高保障和改善民生水平，加强和创新社会治理；</li><li>九、加快生态文明体制改革，建设美丽中国；</li><li>十、坚持走中国特色强军之路，全面推进国防和军队现代化；</li><li>十一、坚持“一国两制”，推进祖国统一；</li><li>十二、坚持和平发展道路，推动构建人类命运共同体；</li><li>十三、坚定不移全面从严治党，不断提高党的执政能力和领导水平。</li></ul></li><li>大会意义：<ul><li>党的十九大是在全面建成小康社会关键阶段、中国特色社会主义发展关键时期召开的一次十分重要的大会，对鼓舞和动员全党全国各族人民继续推进全面建成小康社会、坚持和发展中国特色社会主义具有重大意义。</li></ul></li></ul></li><li><a href="https://oschina.net/news/89844/ant-design-2-13-7" target="_blank" rel="noopener">阿里企业级 UI 设计语言 Ant Design 2.13.7 发布</a>标杆对照</li><li><a href="http://www.cnbeta.com/articles/soft/664365.htm" target="_blank" rel="noopener">谷歌发布Android 8.1 Oreo beta</a>引入神经网络API</li><li><a href="https://hacks.mozilla.org/2017/10/saying-goodbye-to-firebug/" target="_blank" rel="noopener">saying goodbye to firebug</a>Firebug现在在Firefox浏览器中已经到了终点，下个月发布的Firefox Quantum（版本57）将只支持WebExtension扩展</li><li><a href="http://news.mydrivers.com/1/553/553380.htm" target="_blank" rel="noopener">腾讯研发‘一键卸妆’功能</a>见到对方素颜不是梦，研究这些的GG们真的没被老婆打死吗？</li></ul><h3 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h3><ul><li><a href="https://www.zhihu.com/question/19609089" target="_blank" rel="noopener">YouTube 上有哪些值得推荐的频道？</a>:车牌在手，天下我有。</li><li><a href="https://juejin.im/entry/59f054b051882578c5269c06" target="_blank" rel="noopener">左右脑年龄测验</a>:你做过“左右脑年龄测验”吗？有人研究了代码。</li><li><a href="https://showme.codes/2017-02-20/understand-https/" target="_blank" rel="noopener">也许这样理解HTTPS更容易</a> 本文尝试一步步还原HTTPS的设计过程，以理解为什么HTTPS最终会是这副模样</li></ul><h3 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h3><ul><li><a href="https://juejin.im/entry/59f13d6d5188252c231214da" target="_blank" rel="noopener">WebGL</a>:基于HTML5的WebGL实现json和echarts图表展现在同一个界面。</li><li><a href="https://www.sitixi.com/blog/14994835126345.html" target="_blank" rel="noopener">Polyfill</a>:21 分钟精通前端 Polyfill 方案。</li></ul><h3 id="专栏推荐"><a href="#专栏推荐" class="headerlink" title="专栏推荐"></a>专栏推荐</h3><ul><li><a href="https://zhuanlan.zhihu.com/geekcomic" target="_blank" rel="noopener">极客漫画</a>：linux对我们来说， 生涩的，充满了“黑科技”，这个专栏充满了有趣的漫画，还有很丰富的漫画解析，寓教于乐，非常推荐。比如最新的两则：<a href="https://zhuanlan.zhihu.com/p/30432636" target="_blank" rel="noopener">谁杀死了 MySQL</a>,<a href="https://zhuanlan.zhihu.com/p/30259833" target="_blank" rel="noopener">谁杀死了 MySQL?-后记</a>。</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WebGL </tag>
+            
+            <tag> https </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>这次真的要失业了</title>
+      <link href="/ehdfe-weekly/2017/10/20/016.%E8%BF%99%E6%AC%A1%E7%9C%9F%E7%9A%84%E8%A6%81%E5%A4%B1%E4%B8%9A%E4%BA%86(2017.10.16-2017.10.25)/"/>
+      <content type="html"><![CDATA[<p><img src="http://www.kuqin.com/upimg/topic/google.jpg" alt="post-cover"></p><h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul><li><a href="https://www.060694.com/p/81cxd.html" target="_blank" rel="noopener">谷歌AI写的机器学习代码，完爆程序员</a> 谷歌automl团队提出了一种可以创建自学习代码的机器学习软件，系统会运行数千个模拟来确定代码的哪些方面可以作出改进，以及在改变后继续该过程、直到达成目标。所以，是要失业了吗？</li><li><a href="https://oschina.net/news/89707/google-chrome-62-0-3202-62" target="_blank" rel="noopener">Google Chrome v62正式版发布</a>惯例更新了安全修复及稳定性改进。升级后，谷歌将更激进地标注 HTTP 链接为不安全，只推荐 HTTPS。同时，新版支持更多的 OpenType 字体、网络稳定性以及快速捕获网页流媒体文件。</li><li><a href="http://36kr.com/p/5098123.html" target="_blank" rel="noopener">ofo发布首份移动物联网测评报告</a> 物联网智能锁优势全揭秘</li><li><a href="https://www.leiphone.com/news/201710/GFQDdArpEKh3PeyJ.html" target="_blank" rel="noopener">服役13年的 WPA2 加密协议已被攻破？在家上网都不安全了！</a> KRACK可攻陷所有WiFi网络</li><li><a href="https://mp.weixin.qq.com/s/C9MWPj0KtHz1Q0-FpT1ZlQ" target="_blank" rel="noopener">MDN成立产品顾问委员会，将一统Web文档标准</a></li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><p><a href="https://github.com/react-guide/react-basic" target="_blank" rel="noopener">React设计思想</a>：</p><ul><li><strong>变换（Transformation）</strong>:设计 React 的核心前提是认为 UI 只是把数据通过映射关系变换成另一种形式的数据。同样的输入必会有同样的输出。这恰好就是纯函数。</li><li><strong>抽象（Abstraction）</strong>:你不可能仅用一个函数就能实现复杂的 UI。重要的是，你需要把 UI 抽象成多个隐藏内部细节，又可复用的函数。通过在一个函数中调用另一个函数来实现复杂的 UI，这就是抽象。</li><li><strong>组合（Composition）</strong>:组合”就是将两个或者多个不同的抽象合并为一个.</li><li><strong>状态（State）</strong>:UI 不单单是对服务器端或业务逻辑状态的复制。实际上还有很多状态是针对具体的渲染目标。</li><li><strong>Memoization</strong>:对于纯函数，使用相同的参数一次次调用未免太浪费资源。我们可以创建一个函数的 memorized 版本，用来追踪最后一个参数和结果。这样如果我们继续使用同样的值，就不需要反复执行它了。</li><li><strong>列表（Lists）</strong>:大部分 UI 都是展示列表数据中不同 item 的列表结构。这是一个天然的层级。</li><li><strong>连续性（Continuations）</strong>:我们可以通过推迟一些函数的执行，进而把一些模板移出业务逻辑。比如，使用“柯里化”（JavaScript 中的 bind）。然后我们可以从核心的函数外面传递 state，这样就没有样板代码了。</li><li><strong>State Map</strong>:我们可以把执行和传递 state 逻辑挪动到被复用很多的低层级的函数中去。</li><li><strong>Memoization Map</strong>:一旦我们想在一个 memoization 列表中 memoize 多个 item 就会变得很困难。因为你需要制定复杂的缓存算法来平衡调用频率和内存占有率。还好 UI 在同一个位置会相对的稳定。相同的位置一般每次都会接受相同的参数。这样以来，使用一个集合来做 memoization 是一个非常好用的策略。</li><li><strong>代数效应（Algebraic Effects）</strong>:多层抽象需要共享琐碎数据时，一层层传递数据非常麻烦。如果能有一种方式可以在多层抽象中快捷地传递数据，同时又不需要牵涉到中间层级，那该有多好。React 中我们把它叫做“context”。</li></ul></li><li><p><a href="https://zhuanlan.zhihu.com/p/24337401?utm_medium=social&amp;utm_source=qq" target="_blank" rel="noopener">Redux异步方案选型</a>:由于Redux的理念非常精简，没有追求大而全，这份架构上的优雅却在某种程度上伤害了使用体验：不能开箱即用，甚至是异步这种最常见的场景也要借助社区方案。如果你已经挑花了眼，或者正在挑但不知道是否适合，或者已经挑了但不知道会不会有坑，这篇文章应该适合你。</p></li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651552833&amp;idx=1&amp;sn=6a94ab04310c41d942d8727ac7994e7a&amp;chksm=8025ab80b7522296e7c26f57b6714d67462a7a1a37c76cd301b18c8845c3fc3485392ff1e138&amp;mpshare=1&amp;scene=23&amp;srcid=1013vY3T4tpBg2hQLgmmpLdY#rd" target="_blank" rel="noopener">JS 依然最受欢迎，GitHub 2017 开发者年度报告</a>:能用JS解决的，最终都会被JS解决。</li><li><a href="http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html" target="_blank" rel="noopener">何为持续集成</a>概念性内容</li><li><a href="https://zhuanlan.zhihu.com/p/30152480" target="_blank" rel="noopener">前端要革命？看我在JS里写SQL</a>:js里面写SQL?这不是搞事情么？且听笔者娓娓道来。</li><li><a href="https://www.oschina.net/translate/tutorial-number-theory?lang=chs&amp;page=1#" target="_blank" rel="noopener">每个程序员都应该知道的基础数论</a>: 这篇文章讨论了数论中每个程序员都应该知道的几个重要概念。</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> react </tag>
+            
+            <tag> 持续集成 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>秋天来了</title>
+      <link href="/ehdfe-weekly/2017/10/13/015.%E7%A7%8B%E5%A4%A9%E4%BE%86%E4%BA%86(2017.10.7-2017.10.13)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h3 id="新闻浏览"><a href="#新闻浏览" class="headerlink" title="新闻浏览"></a>新闻浏览</h3><ul><li><a href="http://www.geekpark.net/news/222864" target="_blank" rel="noopener">阿里巴巴成立「达摩院」，3 年研发投入 1000 亿</a>: <ul><li>马云的三点要求：<ol><li>达摩院要和湖畔大学、公益基金一样，活得比阿里巴巴长；</li><li>在2036年前，达摩院要为世界第五大经济体服务，解决1亿人口得就业，服务20亿消费者，为1000万企业赋能使其盈利；</li><li>阿里投入1000亿启动资金后，达摩院必须自己能够赚钱。</li></ol></li><li><a href="http://www.cnbeta.com/articles/tech/659435.htm" target="_blank" rel="noopener">阿里股价今年翻倍 盘中市值两年来首度超越亚马逊</a></li><li><a href="http://www.geekpark.net/news/222893" target="_blank" rel="noopener">蚂蚁金服发布首个科技平台「蚂蚁佐罗」</a></li></ul></li><li><a href="https://www.sohu.com/a/197236892_114760" target="_blank" rel="noopener">冒牌 Chrome 扩展现身官方商店：37000 名用户下载中招</a>一款伪装为知名扩展AdBlock Plus的冒牌扩展在谷歌官方商店上架，该正版扩展拥有1000万用户，由于谷歌审核漏洞导致短时间内3.7万用户无意间下载了这款扩展的山寨版，如果用户安装了冒牌的扩展应用浏览器将不受控制打开新的标签页成为“广告肉鸡。</li><li><a href="https://www.sohu.com/a/197252432_113042" target="_blank" rel="noopener">厉害了！小学生用大数据研究苏轼，还写出了论文，结论出人意料</a>论有个IT老爸的重要性</li></ul><h3 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h3><ul><li><a href="https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed" target="_blank" rel="noopener">The 100% correct way to structure a React app </a>:如何合理的组织React app的代码架构？</li><li><a href="https://medium.freecodecamp.org/8-key-react-component-decisions-cc965db11594" target="_blank" rel="noopener">8 个关键的 React 技术选型</a>：自 2013 年 React 开源以来，React 技术栈也发生了急剧的变化与更新，现在搜索到的不少文章可能也都过时了；本文则是对于现在进行 React 开发所需要的技术栈进行了盘点。<ul><li>首先是开发环境，create-react-app 以 65% 独占鳌头；</li><li>在类型系统上，有 42% 的开发者选择了 PropTypes，34% 的开发者选择了 TypeScript。</li><li>而在状态管理上，48% 的使用 Redux，11% 的使用了 MobX；</li><li>越来越多的开发者也选择使用 CSS 或 SASS 设置样式</li><li>选择用 HoC 或者 Render Props 来复用逻辑。</li></ul></li></ul><h3 id="Fun"><a href="#Fun" class="headerlink" title="Fun"></a>Fun</h3><ul><li><a href="https://www.youtube.com/playlist?list=PLS8HfBXv9ZWWe8zXrViYbIM2Hhylx8DZx" target="_blank" rel="noopener">Super Mario Bros in JavaScript</a>: JavaScript 实现超级玛丽。</li><li><a href="https://ppoi.org/" target="_blank" rel="noopener">使用JavaScript挖矿</a> ProjectPoi 提供基于JavaScript的门罗币挖矿程序 (为什么选择门罗币?), 您可以将其嵌入到您的站点内. 用户可以直接在浏览器中执行挖矿任务，从而获得无广告的浏览体验、游戏内的收益，以及任何您能想到的鼓励措施。</li><li><a href="https://zhuanlan.zhihu.com/p/29996576?utm_medium=social&amp;utm_source=qq" target="_blank" rel="noopener">微信团队披露：微信界面卡死超级bug“15。。。。”的来龙去脉</a>:微信15。。。bug产生的前世今生</li></ul><h3 id="趣站推荐"><a href="#趣站推荐" class="headerlink" title="趣站推荐"></a>趣站推荐</h3><ul><li><a href="http://www.openvim.com/tutorial.html" target="_blank" rel="noopener">Interactive Vim tutorial</a> 给你一个彻底学会 VIM 的机会</li><li><a href="https://codesandbox.io/" target="_blank" rel="noopener">https://codesandbox.io/</a>: 正如网站名所说的，代码运行的沙盒。在想做个小测试的时候，会有很多已经有的例子，自己可以直接了当去测试了，不用在本地再搭基本的开发环境了</li></ul><h3 id="百家争鸣"><a href="#百家争鸣" class="headerlink" title="百家争鸣"></a>百家争鸣</h3><ul><li><a href="https://undefinedblog.com/window-fetch-is-not-as-good-as-you-imagined/" target="_blank" rel="noopener">fetch 没有你想象的那么美</a>:本文的主旨不在于批评 fetch，事实上 fetch 的出现绝对是前端领域的进步体现。，fetch 是一个相当底层的 API，在实际项目使用中，需要做各种各样的封装和异常处理，而并非开箱即用，更做不到直接替换 $.ajax 或其他请求库。</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> fetch </tag>
+            
+            <tag> 达摩院 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>国庆中秋特别周刊</title>
+      <link href="/ehdfe-weekly/2017/09/30/014.%E5%9B%BD%E5%BA%86%E9%95%BF%E5%81%87%E7%89%B9%E5%88%AB%E5%91%A8%E5%88%8A(2017.9.25-2017.9.30)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="新闻时事"><a href="#新闻时事" class="headerlink" title="新闻时事"></a>新闻时事</h2><ul><li><a href="http://36kr.com/p/5095112.html" target="_blank" rel="noopener">阿里未来五年要投入1000亿升级菜鸟</a> 阿里再向菜鸟网络投资53亿，各巨头快递物流正处“加速时”</li><li><a href="http://tech.sina.com.cn/it/2017-09-26/doc-ifymesii5647708.shtml" target="_blank" rel="noopener">苹果推出新iPhone后股价连跌 市值已缩水约566亿美元</a> 就看iphoneX能不能翻盘了</li><li><a href="http://news.163.com/17/0924/17/CV470EMB0001899N.html" target="_blank" rel="noopener">爱尔兰一航空公司加班10天给10万 飞行员:没兴趣</a> 请公司让我加班，不要拦我。。</li><li><a href="http://economy.southcn.com/e/2017-09/29/content_177893388.htm" target="_blank" rel="noopener">BAT落户雄安新区 48家入驻企业9家已获营业执照</a>组团去雄安挖矿还来得及吗</li><li><a href="http://www.cnbeta.com/articles/tech/656465.htm" target="_blank" rel="noopener">前谷歌工程师创立AI宗教</a> 一个旨在“发展和促进基于人工智能，进而创造AI上帝”的宗教组织。要超过绿绿了吗。。</li><li><a href="https://finance.sina.cn/usstock/mggd/2017-09-26/detail-ifymesii5812607.d.html" target="_blank" rel="noopener">阿里巴巴正式成立游戏事业群</a> 饿死不做游戏的马爸爸要做游戏了?</li></ul><h2 id="圈内大事"><a href="#圈内大事" class="headerlink" title="圈内大事"></a>圈内大事</h2><h3 id="React-16正式发布"><a href="#React-16正式发布" class="headerlink" title="React 16正式发布"></a><a href="https://reactjs.org/blog/2017/09/26/react-v16.0.html" target="_blank" rel="noopener">React 16正式发布</a></h3><ul><li>render 方法支持返回<code>数组</code>和<code>字符串</code>.</li><li>更好的异常处理方式.</li><li>新增 <code>ReactDOM.createPortal</code> 方法，支持渲染到任意节点.</li><li>服务端渲染：3倍速度提升.</li><li>支持自定义 dom 属性.</li><li>显著减小体积：react 20.7kb -&gt; 5.3kb, react-dom 141kb -&gt; 103.7kb.</li><li>证书改成 <code>MIT</code>.</li><li>底层使用 <code>Fiber</code>.</li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="http://www.w3cplus.com/css/the-notch-and-css.html" target="_blank" rel="noopener">iPhone X的缺口和CSS</a> 苹果公司（Apple）的发布会也开完了，新产品也将登陆了。估计很多开发人员看到iPhone X的设备是要崩溃了，特别对于前端开发人员更是如此。</li><li><a href="https://www.zhihu.com/question/41870563" target="_blank" rel="noopener">民工叔跳槽去Teambition？</a> NB的程序员都去BAT了。。。</li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/27404958" target="_blank" rel="noopener">Weex</a> 鹅厂weex踩坑攻略</li><li><a href="http://web.jobbole.com/92460/" target="_blank" rel="noopener">你所不知道的 CSS 滤镜技巧与细节</a>CSS 滤镜的不常用用法</li><li><a href="https://zhuanlan.zhihu.com/p/29506685" target="_blank" rel="noopener">再见，babel-preset-2015</a> 在2017年第三季度我们终于要和 ES2015 preset 说再见了。</li></ul><h2 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h2><ul><li><a href="https://www.zhihu.com/question/65842320/answer/235297765" target="_blank" rel="noopener">微信启动图变化的背后</a>：微信将非洲上空的云图作为启动页的背景图，希望将“起源”之意赋予启动页面。因为人类的出现，才有了沟通的存在和意义。今天，微信启动页从“人类起源”到“华夏文明”的展示，向亿万微信用户展示华夏大地的河山风貌，也为“风云四号”献上的一份特殊的礼物。</li><li><a href="http://news.163.com/17/0929/07/CVG0EEED00018AOR.html" target="_blank" rel="noopener">微信开机启动图又换回去了</a>：微信团队称，更换启动图是为庆祝中国科技取得重大成就，向亿万用户展示中国科技的最新成果。对此，有网友感慨新页面维持时间太短。你发现了吗？</li><li><a href="https://weekly.75team.com/" target="_blank" rel="noopener">奇舞周刊</a> 360家的前端周刊</li><li><a href="http://www.alloyteam.com/alloyshare/weekly/p/1" target="_blank" rel="noopener">Alloy周刊</a> 腾讯家的前端周刊</li><li><a href="https://zhuanlan.zhihu.com/p/27199954" target="_blank" rel="noopener">提高驾驶技术：用GAN去除(爱情)动作片中的马赛克和衣服</a></li><li><a href="http://mp.weixin.qq.com/s/_fYa6URsK01DaRDFIIHR2g" target="_blank" rel="noopener">听说香蕉和枣一起吃，会看到人生的走马灯？实验党跃跃欲试！</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> react </tag>
+            
+            <tag> weex </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>苹果取消打赏抽成</title>
+      <link href="/ehdfe-weekly/2017/09/22/013.%E8%8B%B9%E6%9E%9C%E5%8F%96%E6%B6%88%E6%89%93%E8%B5%8F%E6%8A%BD%E6%88%90(2017.9.18-2017.9.22)/"/>
+      <content type="html"><![CDATA[<h2 id="新闻时事"><a href="#新闻时事" class="headerlink" title="新闻时事"></a>新闻时事</h2><ul><li><p><a href="http://mp.weixin.qq.com/s/FWBfPzRlZ829hRVvlyr_aQ" target="_blank" rel="noopener">程序员遇上讨薪难？</a>最近程序员是水逆吗？作为一名勤勤恳恳的码农，竟然还要去走上讨薪的道路</p></li><li><p><a href="http://epaper.bjnews.com.cn/html/2017-09/18/content_695792.htm?div=-1" target="_blank" rel="noopener">苹果取消打赏抽成</a>以微信为代表的app和苹果之间的争斗，终于落下了帷幕，只希望原创者的权益得到应有的保障，而不是沦为各方争斗的筹码</p></li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><p><a href="http://linux-wiki.cn/wiki/zh-hans/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84" target="_blank" rel="noopener">Linux目录结构</a>:除了我们熟知的Windows外，绝大部分web应用程序运行的Linux到底是一个怎样的目录结构呢？</p></li><li><p><a href="https://elevenbeans.github.io/2017/08/29/Explaining-React-s-license/" target="_blank" rel="noopener">React的版权问题</a>还能愉快的使用react吗？</p></li></ul><p><img src="http://upload.chinaz.com/2014/0423/1398237508141.jpg" alt=""></p><ul><li><p><a href="http://gad.qq.com/article/detail/33363?sessionUserType=BFT.PARAMS.236614.TASKID&amp;ADUIN=79484427&amp;ADSESSION=1505889135&amp;ADTAG=CLIENT.QQ.5539_.0&amp;ADPUBNO=26730" target="_blank" rel="noopener">几个编程挑战</a>想提高搬砖技能吗？想解决各种难题，解锁多种搬砖姿势吗？多个挑战网址奉上，好运送给你</p></li><li><p>上次周报中提到的stream中究竟有哪些具体的实现呢？<br><img src="http://image.tf56.com/dfs/group1/M00/36/0A/CiFBCVnEfI2ANvk6AAFzVkInVoQ670.png" alt="流"></p></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> stream </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>人脸解锁支付来了</title>
+      <link href="/ehdfe-weekly/2017/09/15/012.%E4%BA%BA%E8%84%B8%E8%A7%A3%E9%94%81%E6%94%AF%E4%BB%98%E6%9D%A5%E4%BA%86(2017.9.11-2017.9.15)/"/>
+      <content type="html"><![CDATA[<h2 id="各种新闻"><a href="#各种新闻" class="headerlink" title="各种新闻"></a>各种新闻</h2><ul><li><p><a href="http://finance.sina.com.cn/stock/usstock/c/2017-09-11/doc-ifykusey7982147.shtml" target="_blank" rel="noopener">德国电信携手华为开启欧洲首个5G连接</a>：<br>9月11日，中国华为与德国电信开展了一次5G技术演示，在德国一张商用网络上开启了欧洲首个5G连接！。该公司计划从2020年开始其下一代移动宽带发展计划。</p><p>5G网络，将怎样改变我们的生活？你能想象2G比特/秒的手机网速，有多强大吗？5G网络作为第五代移动通信网络，其最高理论传输速度可达每秒数十Gb，这比4G网络的传输速度快数百倍，整部超高画质电影可在1秒之内下载完成。 5G网络将来支持的设备远远不止是智能手机——它还要支持智能手表、健身腕带、智能家庭设备如鸟巢式室内恒温器等。随着5G技术的诞生，用智能终端分享3D电影、游戏以及超高画质（UHD）节目的时代已向我们走来。</p></li><li><p><a href="http://www.geekpark.net/news/222207" target="_blank" rel="noopener">苹果发布会亮点汇总</a></p></li></ul><p>1、iPhone 8/iPhone 8 Plus，iPhone X 8388 元起售，Apple Watch Series 3，Apple TV 4K。2、苹果将于年底搬入 Apple Park，新园区采用百分之百可再生能源；iOS 11 正式版将于 9 月 19 日开始推送。</p><ul><li><a href="http://www.geekpark.net/news/222209" target="_blank" rel="noopener">比指纹更快还更安全，iPhone X 的人脸解锁凭什么这么牛？</a></li></ul><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/012-01.jpg" alt=""></p><p>新的 iPhone X<a href="http://www.geekpark.net/news/222209" target="_blank" rel="noopener">,X 是罗马数字中 10 的意思,iPhone ten,想想乔纳森性感的声音</a> , 可能会让你彻底忘了解锁和指纹这两件事。因为用脸解锁的方式实在太方便，不需要任何动作，抬手秒解锁，整个过程很自然。更重要的是，你可能不相信，人脸其实比指纹更安全！</p><p>对于 iPhone X 而言，在全面屏之外，<a href="https://github.com/EHDFE/ehdfe-weekly/blob/master/assets/020-06.jpg" target="_blank" rel="noopener">最大的亮点</a> 就是全新的人脸解锁/支付的功能。苹果这次在 iPhone X 上用 Face ID（人脸）完全代替了 Touch ID（指纹），解锁更简单的同时人脸也代替了以往指纹的身份验证作用。</p><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/020-07.jpg" alt=""></p><p>槽点：人脸识别遇到双胞胎怎么办?在发布会上，苹果表示 Face ID 的错误率是百万分之一，但如果你有一个「evil twin（极像的双胞胎，这里拿星际迷航的 Spock 开涮了一下）」，可能会存在问题。所以对于双胎来说，数字密码还是要更加安全一些。</p><h5 id="小亮点：-动态-emoji，利用-iPhone-X-的面部识别功能，iPhone-X-能够实时且高精度的将你的面部表情转化到一个-3D-的-emoji-表情上，让这个表情做出相一样的表情，并且相似度非常之高！刘海里的点阵投影器（Dot-Projector）：-通过将-30-000-多个肉眼不可见的光点投影在用户脸部，绘制出独一无二的「面谱」。"><a href="#小亮点：-动态-emoji，利用-iPhone-X-的面部识别功能，iPhone-X-能够实时且高精度的将你的面部表情转化到一个-3D-的-emoji-表情上，让这个表情做出相一样的表情，并且相似度非常之高！刘海里的点阵投影器（Dot-Projector）：-通过将-30-000-多个肉眼不可见的光点投影在用户脸部，绘制出独一无二的「面谱」。" class="headerlink" title="小亮点： 动态 emoji，利用 iPhone X 的面部识别功能，iPhone X 能够实时且高精度的将你的面部表情转化到一个 3D 的 emoji 表情上，让这个表情做出相一样的表情，并且相似度非常之高！刘海里的点阵投影器（Dot Projector）： 通过将 30,000 多个肉眼不可见的光点投影在用户脸部，绘制出独一无二的「面谱」。"></a>小亮点： 动态 emoji，利用 iPhone X 的面部识别功能，iPhone X 能够实时且高精度的将你的面部表情转化到一个 3D 的 emoji 表情上，让这个表情做出相一样的表情，并且相似度非常之高！刘海里的点阵投影器（Dot Projector）： 通过将 30,000 多个肉眼不可见的光点投影在用户脸部，绘制出独一无二的「面谱」。</h5><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/020-001.gif" alt=""></p><ul><li><a href="http://www.geekpark.net/news/222210" target="_blank" rel="noopener">三款新 iPhone 在硬件上的升级给了 AR 更大的发展空间</a><br>利用 AR 更容易在现实世界中进行精确瞄准，玩家不再受手机屏幕空间所限，可以从各个角度看到游戏中的场景，还可以放大画面近距离观察。另外，得益于强大的图像处理性能，其能够支持 4K 显示。随着距离拉近，游戏的声音也会随着变大，这种沉浸式的体验是传统手游无法给予的。</li></ul><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/020-08.gif" alt=""></p><ul><li><a href="http://www.geekpark.net/news/222166" target="_blank" rel="noopener">小米发布了今年要在自己产品线中最重要的一款旗舰机小米Mix2</a>：小米Mix2整个机身是用后盖陶瓷机身+7系的金属中框+一块18:9的圆角屏幕。也正是在这款产品上，小米提出了「正面全是屏幕」的「全面屏」概念。当然，如果你实在不喜欢金属中框，小米 MIX 2 也提供了一个全陶瓷的尊享版可供选择。不过另一方面，小米 MIX 在「惊艳」的同时，自身又存在着一些影响体验的小遗憾，比如整机尺寸偏大、陶瓷机身精致但易碎、听筒声音偏小、相机表现一般。</li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="http://mp.weixin.qq.com/s?__biz=MzAxMjA5ODQwMQ==&amp;mid=2455058824&amp;idx=1&amp;sn=ee11da0c41f5fa2e19e84c798d9fa6b1&amp;chksm=8c169786bb611e908972b10dd115f4f101302a0217746f7bd8e8a8f221311e336267dba39ac8&amp;mpshare=1&amp;scene=23&amp;srcid=0913I0WgGJYNgPGb7NV1r6FX#rd" target="_blank" rel="noopener">深入理解 Node Stream 内部机制</a>:Node中最让人印（dan）象(teng)深(wu)刻(bi)的stream 深刻剖析</li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/29184710" target="_blank" rel="noopener">揭秘地下色情诱导网站，上车吧！</a>:如何利用技术的手段“为民除害”？</li><li><a href="http://news.ifeng.com/a/20170912/51961394_0.shtml" target="_blank" rel="noopener">程序员被前妻勒索1千万自杀！</a>:网络长途电话和国际电话应用WePhone开发者苏享茂自杀，引起社会关注的背后，所反映的正是这种恐惧“爱情变质”的共同社会心理。</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 地下色情 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Happy(团建) Week</title>
+      <link href="/ehdfe-weekly/2017/09/08/011.Happy%20Week(2017.9.4-2017.9.8)/"/>
+      <content type="html"><![CDATA[<h2 id="圈内八卦"><a href="#圈内八卦" class="headerlink" title="圈内八卦"></a>圈内八卦</h2><p><img src="https://qqpublic.qpic.cn/qq_public/0/0-3211018090-79A69B88639E8679EB91FF5E84BDEE06/900" alt="大佬"></p><ul><li><strong>7部委齐发文，40余家ICO平台停业</strong>：9月5日，有消息称，央行北京营业管理部向辖内银行和支付机构下发通知，要求落实对代币发行融资开展清理整顿工作加强支付结算管理。在央行发布停止ICO（首次代币发行）公告后，多家平台陆续采取措施，截至9月5日下午18时，国内已有40多家平台采取了暂停ICO业务、暂停注册或永久停服等不同程度的措施。值得一提的是，尽管监管叫停ICO，但代币仍上演“最后的疯狂”，部分代币日涨幅超30%。（北京商报）</li><li><p><a href="https://36kr.com/p/5091607.html" target="_blank" rel="noopener">ICO泡沫幻灭24小时</a>：薛蛮子避走，李笑来噤声，平台转移，韭菜还在挣扎<br><img src="https://pic.36krcnd.com/avatar/201709/05111904/9c1noa4rmh3d4gz5!heading" alt="比特币"></p></li><li><p><a href="https://www.sohu.com/a/169654794_827544" target="_blank" rel="noopener">00后CEO被指抄袭</a>从小老师就教育我们，就算是Ctrl+C,Ctrl+V，也好歹把人家的名字改成自己的啊，连名字都不换，谁信你自己写的作业呢。<br><img src="http://img1.utuku.china.com/550x0/news/20170906/970a6672-e47b-45b9-a618-18acba1d5800.jpg" alt="00后CEO"></p></li><li><p><a href="https://zhuanlan.zhihu.com/p/29026662" target="_blank" rel="noopener">Google ARCore 突破次元壁</a> <a href="https://v.vzuu.com/video/888512769127755776" target="_blank" rel="noopener">https://v.vzuu.com/video/888512769127755776</a></p></li><li><p><strong>微信上线“挪车”功能：扫一扫就能通知车主</strong>:微信“城市服务”上线了“挪车”功能，可通知车主挪车。打开微信挪车服务，在“发起挪车”，填写对方车辆的车牌、颜色、型号、挪车原因。也可直接扫描汽车车牌即可。上传完毕，对方司机会收到挪车短信，微信上也会实时显示挪车进程。目前该功能仅在广东省上线，其他地区还在开发中。<br><img src="http://tc.sinaimg.cn/maxwidth.2048/tc.service.weibo.com/mmbiz_qpic_cn/42836d59bd4393849c942de0388f9c39.jpg" alt="车停的真好"></p></li><li><p><strong>刘强东语放狠话：5年超天猫成中国最大B2C平台</strong> 刘强东全英文接受了美国CNBC记者Christine的采访，从如何获得国内消费者的信任，到如何和合作伙伴合作，如何和阿里巴巴竞争等等问题，刘强东一一做了回答。刘强东表示，自己最看重质量，花了很久去建立干线系统、售后服务、交易体系、配送服务，从2004年到2010年，用了六年时间才获得了良好的口碑和声誉，随后开始向第三方商家开放，并建立了非常严格的标准。对于很多人关心的天猫、京东“国内电商一哥”之争，刘强东称：“我相信，5年之内我们将超过天猫，成为中国最大的B2C平台”。他表示，京东一直以来都要比天猫发展得快，还有一个原因，就是用户体验比中国其他任何一个竞争者都要好。<br><img src="http://sinastorage.com/storage.caitou.sina.com.cn/products/201702/f1ac5d77908b3c16f68e4693bd474df6.jpeg" alt="耻辱"></p></li><li><p><a href="http://mp.weixin.qq.com/s/luyvGN8PPkYIT-rZ6XqQag" target="_blank" rel="noopener">Edge 和 IE 浏览器面临窘境，市场份额持续走低；Facebook 开源 VoiceLoop </a></p></li><li><p><a href="http://www.cnbeta.com/articles/soft/648733.htm" target="_blank" rel="noopener">微软Edge和IE浏览器市场份额继续走低</a>:根据美国网络分析公司Net Applications最新数据显示，微软Edge和Internet Explorer浏览器市场份额继续走低，上个月，两个应用合计市场份额下降到21%，下降幅度0.9%，是自1月份以来的最大跌幅，使微软网络浏览器市场份额远远落后于Google Chrome，后者份额达到 60%。<br><img src="http://ww1.sinaimg.cn/large/005YbraHjw1erm6qztxmnj30dw0gm407.jpg" alt="IE"></p></li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><p><img src="http://mmbiz.qpic.cn/mmbiz_gif/2A8tXicCG8ylvhfc9YPHVkINEgA1ic7ibXAvFBlEdLQs06hTc5zpkNjbWapWLmbUtZCqamlbXuusJEuHCOwqz3iaHQ/0?wx_fmt=gif&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p><ul><li><a href="https://zhuanlan.zhihu.com/p/29027477" target="_blank" rel="noopener">React Table组件开发</a>：去实现这个 Table 组件是因为产品经理希望表格可以像 Excel一样固定表头和列</li><li><a href="http://www.cnblogs.com/xianyulaodi/p/6547807.html" target="_blank" rel="noopener">从输入url到页面展示到底发生了什么</a>：通过输入url之后发生的事情来做知识的总结和扩展。</li><li><a href="https://mp.weixin.qq.com/s?__biz=MzI3NzIzMzg3Mw%3D%3D&amp;mid=100000054&amp;idx=1&amp;sn=71f6c214f3833d9ca20b9f7dcd9d33e4" target="_blank" rel="noopener">99%的人都理解错了HTTP中GET与POST的区别</a></li></ul><h2 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h2><ul><li><p><a href="https://tutorialzine.com/2017/08/automating-google-chrome-with-node-js" target="_blank" rel="noopener">Automating Google Chrome with Node.js</a>：The feature is called Headless Chrome and it makes it super easy for developers to configure a headless browser environment and run powerful automated tests.</p></li><li><p><a href="http://www.aliued.cn/2017/08/31/%E7%BB%84%E4%BB%B6%E5%8C%96%E8%AE%BE%E8%AE%A1%E6%80%9D%E7%BB%B4-%E4%BB%8E%E8%A7%84%E8%8C%83%E5%88%B0%E5%B7%A5%E5%85%B7%E7%9A%84%E6%9E%84%E5%BB%BA%E4%B8%8E%E6%8E%A2%E7%B4%A2.html" target="_blank" rel="noopener">组件化设计思维 – 从规范到工具的构建与探索</a>：大厂在中台战略的背景下，设计提效又再次推动着设计思维的变革</p></li></ul><h2 id="娱乐头条"><a href="#娱乐头条" class="headerlink" title="娱乐头条"></a>娱乐头条</h2><p><img src="http://5b0988e595225.cdn.sohucs.com/images/20170906/8bca76a6499648de8979196b0d6d7574.jpeg" alt=""></p><ul><li><a href="http://mp.weixin.qq.com/s/HONY6rYadtuKkekYOthWvA?scene=25#wechat_redirect" target="_blank" rel="noopener">程序员相爱相杀鄙视指南</a></li><li><a href="http://mp.weixin.qq.com/s/HONY6rYadtuKkekYOthWvA?scene=25#wechat_redirect" target="_blank" rel="noopener">程序员非正式生存指南</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 组件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>node.js再度分家</title>
+      <link href="/ehdfe-weekly/2017/09/01/010.node.js%E5%86%8D%E5%BA%A6%E5%88%86%E5%AE%B6(2017.8.28-2017.9.1)/"/>
+      <content type="html"><![CDATA[<h2 id="圈子新闻"><a href="#圈子新闻" class="headerlink" title="圈子新闻"></a>圈子新闻</h2><ul><li><a href="http://www.geekpark.net/topics/221567" target="_blank" rel="noopener">三大运营商取消漫游费用</a> 今年年初，中国移动、联通、电信三大运营商宣布，将于 2017 年 10 月 1 日起，全面取消手机国内长途、漫游费用，宣告实行了 23 年的漫游费终于作古。随后，在 7 月份，三大运营商又集体宣布，将从 9 月 1 日起在全国范围内取消漫游费，比原计划提前了一个月。</li></ul><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/010.1.jpg" alt="微博截图"></p><ul><li><strong>工商总局正在评估对苹果涉垄断行为的举报</strong>:8 月 7 日，国内相关开发者和律师专家团队召开苹果应用市场反垄断集体行动说明会，认为苹果公司运营的应用商店 App Store 在长期运营中涉嫌违法、侵权并存在垄断行为，并在 8 月 8 日正式向国家工商总局和国家发改委寄出举报函。举报方认为，苹果公司在运营 App Store 过程中可能存在涉嫌滥用市场支配地位、违反国家关于互联网信息服务、网络出版服务的法规、规章的行为，存在损害移动应用程序开发者、运营者、消费者的合法权益的可能。</li></ul><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/010.2.jpg" alt="文案配图"></p><ul><li><a href="http://news.mydrivers.com/1/546/546447.htm" target="_blank" rel="noopener">全面屏+陶瓷！小米MIX2售价曝光：准备好半个肾</a>:小米将于 9 月 11 日在北京工业大学体育馆举办新品发布会，正式发布小米 MIX 2。据最新爆料，小米 MIX 2 的屏幕比例从 17:9 改为了 18:9，屏幕尺寸 6.4 英寸缩小到 6 英寸左右。</li></ul><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/010.3.jpg" alt="小米MIX2"></p><p>外观部分，小米 MIX 2 依然会采用陶瓷机身，但改为了金属中框。另外售价方面，据此前消息，小米 MIX 2 较第一代 MIX 售价将有所上涨，标配版 3999 元，高配版 4999 元。</p><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/010.4.jpg" alt="Are you Ok？"></p><ul><li><a href="http://www.cnbeta.com/articles/tech/646399.htm" target="_blank" rel="noopener">Google地图想要帮助用户在25个新城市找到停车位</a>:Google 正在不断努力，让地图用户轻松找到繁忙地区的停车位，而且由于最近的 Google 地图更新，这个功能现在可供一批新用户使用。Google 从今天开始，美国以外的其他 25 个城市的用户将可以使用停车困难图标功能，让用户可以预先查看所在地点的停车位数量。为了获得更好的表现，Google 正在使用机器学习和历史停车数据来准确预测找到停车位的难易程度，所显示难度水平范围从有限（非常繁忙的地区）到中等到容易（对于较不拥挤的地区）。</li></ul><p><img src="https://raw.githubusercontent.com/EHDFE/ehdfe-weekly/master/assets/010.5.png" alt="Google地图想要帮助用户在25个新城市找到停车位"></p><ul><li><a href="https://www.zhihu.com/question/64358787" target="_blank" rel="noopener">node.js再度分家</a>:大海航行靠舵手，Node基金会的管理层叫做技术舵手委员会（TSC）。Node社区考的是行为准则（COC）。前不久委员会里的<a href="https://github.com/rvagg" target="_blank" rel="noopener">rvagg</a>的言论引发了争论，让委员会里面的人据地他违反了COC，理应除名。在该不该除名的投票中，1票回避（当事人），2票弃权，4票支持，6票反对。结果是rvagg继续留在委员会。剩下的哥儿4个从TSC辞职，转而创建Ayo.js。目前，项目里没有实质的代码更改。</li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><p><a href="https://medium.freecodecamp.org/why-arrow-functions-and-bind-in-reacts-render-are-problematic-f1c08b060e36" target="_blank" rel="noopener">Why Arrow Functions and bind in React’s Render are Problematic</a>:为什么在react render中使用 箭头函数或者bind会是有性能问题的呢？箭头函数和 bind不利于shouldComponentUpdate，PureComponent的优化。</p><blockquote><p>Here’s why: The parent component is passing down an arrow function on props. Arrow functions are reallocated on every render (same story with using bind).</p></blockquote></li><li><p><a href="https://mp.weixin.qq.com/s/U4REXWqmVa-XgyR1_fUf7A" target="_blank" rel="noopener">React之组件类型</a>: 元素与组件,函数定义与类定义组件 ,展示与容器组件,有状态与无状态组件 ,受控与非受控组件,组合与继承</p></li><li><p><a href="http://mp.weixin.qq.com/s/Zi1xnMJp-iRLa-3L-aiVpA" target="_blank" rel="noopener">如何在 Webpack 2 中使用 tree-shaking</a> 它是指在打包时只包含用到的 Javascript 代码。 </p></li><li><p><a href="https://zhuanlan.zhihu.com/p/28702422" target="_blank" rel="noopener">Node.js 性能调优：升级到 Node@8</a> 如果你想以最简单的方式提升 node 程序的性能，那就升级到 node@8 吧。随着前不久 V8 彻底换上了新的 JIT 编译器—— Turbofan，大多数“Optimization killers”都已经成了过去式。</p></li></ul><h2 id="推荐专栏"><a href="#推荐专栏" class="headerlink" title="推荐专栏"></a>推荐专栏</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/28777722" target="_blank" rel="noopener">奇技淫巧学 V8 </a>:对于语言实现的深入学习总是有趣的。</li><li><a href="https://yubolun.com/" target="_blank" rel="noopener">从零学习 React 技术栈系列教程</a>:一步一步，React从入门到深（fang）入(qi)。可以借此查漏补缺。</li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="https://medium.freecodecamp.org/is-vanilla-javascript-worth-learning-absolutely-c2c67140ac34" target="_blank" rel="noopener">Is Vanilla JavaScript worth learning? Absolutely.</a>:pure (Vanilla) JavaScript值得学习么？那当然！ 本文介绍了学好js本身的重要性。更为重要的是推荐了几个资源。<a href="http://eloquentjavascript.net/" target="_blank" rel="noopener">Eloquent</a>:不仅教受js基础，还讲述了编程的基础。<a href="https://github.com/getify/You-Dont-Know-JS" target="_blank" rel="noopener">You Don’t Know JavaScript </a>:知名度颇高，正如其名一样，也有深度。还有个视频网站（英文版）:<a href="https://frontendmasters.com/kyle-simpson/" target="_blank" rel="noopener">Kyle’s online courses</a>。最后希望大家成为一个aspiring front-end developer.</li><li><a href="https://github.com/xitu/gold-miner/blob/master/TODO/dont-use-automatic-image-sliders-or-carousels.md" target="_blank" rel="noopener">别再使用图片轮播了</a>  图片轮播，或者旋转木马（也叫做「rotating offers」），我相信你见过没有几百次至少也有几十次了吧。或许你甚至还对他们有些好感，但事实上，它们可并不是什么好东西。<br>既然它们效果并不好，为什么人们还要用呢？</li><li><a href="https://www.oschina.net/translate/11-cool-new-coding-tools-to-know" target="_blank" rel="noopener">超酷的编程新工具</a>各种新鲜出炉的编程工具，有没有你心仪的款？</li><li><a href="http://mp.weixin.qq.com/s/N-lusMVZ0nc77TyVIH74yQ" target="_blank" rel="noopener">JavaScript 疲劳终极指南：我们行业的真相</a>:醍醐灌顶之言。列举几条扎心的言论：</li></ul><blockquote><p>软件存在的意义并不是用来取悦我们程序员的，并不是为了让我们写出漂亮代码的，也不是为科技行业创造就业机会的。实际上，软件的存在扼杀了太多的工作岗位，其中也包括我们的，这就是为什么基本工资在未来的几年将会变得更加重要，但是这就完全是另一个话题了。</p></blockquote><blockquote><p>没有人关心你使用的是什么编程语言，没有人关心你的团队选择的是什么框架，没有人关心你的数据结构有多么优雅，也没有人关心你的代码写得有多漂亮。人们唯一关心的是：你的软件支出是多少，产生的收益是多少，仅此而已。写出漂亮的代码对于你的客户而言没有任何卵用。我们之所以要写漂亮的代码，是因为长远来看这样会更高效，能够减少支出，增加收益。</p></blockquote><blockquote><p>可重复使用的太空火箭、自动驾驶汽车、机器人、AI：这些东西之所以存在，并不是因为我们觉得它们很酷，而是因为在它们的背后有商业利益存在。我并不是说这些东西背后的那群人只在乎金钱，我确定他们也认为这东西很酷，但事实是，如果没有经济利益或者说没有潜在的经济价值，这些东西是不会存在的。</p></blockquote>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> webpack </tag>
+            
+            <tag> node </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>支付宝也搞了个小程序</title>
+      <link href="/ehdfe-weekly/2017/08/25/009.%E6%94%AF%E4%BB%98%E5%AE%9D%E4%B9%9F%E6%90%9E%E4%BA%86%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F(2017.8.21-2017.8.25)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul><li><a href="http://www.sohu.com/a/165637823_114778" target="_blank" rel="noopener">支付宝小程序开始公测，可接入芝麻信用评分</a>:微信小程序开放半年后，支付宝小程序开始公测了。</li><li><a href="http://www.techweb.com.cn/it/2017-08-19/2575633.shtml" target="_blank" rel="noopener">支付宝发道歉信 承认抄袭微信小程序代码</a>:支付宝小程序团队在编写开发文档的示例部分时，直接copy了微信的示例。</li><li><a href="http://www.techweb.com.cn/it/2017-08-22/2576570.shtml" target="_blank" rel="noopener">ofo开启解锁新姿势 NFC近场支付实现“一碰即开锁”</a>:支持NFC近场支付功能的全新智能锁已完成研发开始量产    </li><li><a href="http://www.techweb.com.cn/it/2017-08-24/2577955.shtml" target="_blank" rel="noopener">小猿搜题起诉作业帮侵犯名誉权 索赔5000万元</a>:小猿搜题在北京市朝阳区人民法院分别起诉作业帮以及百度两家公司</li><li><a href="http://ah.people.com.cn/n2/2017/0824/c229939-30650396.html" target="_blank" rel="noopener">拒绝示爱被扔下楼 男子把女同学从19楼扔下</a>:女生家属索赔1000万，滨江房东或成最大输家。</li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/28618630?group_id=882578710224605184" target="_blank" rel="noopener">React 的许可协议到底发生了什么问题？</a>:开源软件真的是免费的么？</li><li><a href="https://zhuanlan.zhihu.com/p/28676129" target="_blank" rel="noopener">ES2017 你应该知道的</a>:ES2017 提供了很多有用的方法，这里介绍几个有用的方法，了解它们对日常的开发很有帮助。</li><li><a href="http://qianduan.guru/posts/5997b695852d815d019c1659?nsukey=cBcXWLFJDK3I63kP6mfWNk4zEPRnCRiKG8XaXEg427Dvl%2BTk2yjv%2FVw2FEtN0xar%2BhklAydlP7EYjKI02FXkoLXpqLtGOJ0L6xyd0X3fDb6GVacYcB10nLCUEmRA2hGUo15bySmlfV%2Bbbyw2Odz35E40H3Q%2BfI0n88c3cqkTlSyCWxxOY%2FS1ZVgylJOYfXqs" target="_blank" rel="noopener">阿里前端推出新的 React 框架：Mirror</a>:一款基于 React、Redux 和 react-router 的前端框架，简洁高效、灵活可靠。</li><li><a href="http://www.sohu.com/a/165549919_465223" target="_blank" rel="noopener">我们为什么选择React?</a>因为是天选之人，与众不同</li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c" target="_blank" rel="noopener">Webpack与Rollup：同与不同（需要翻墙）</a>：我们能够熟练掌握webpack的时候，rollup是否是又新造的一个相同的轮子呢？用文章中一句话总结二者不同:<code>Use webpack for apps, and Rollup for libraries。</code>。相比竞争的意味，二者互补的作用更加凸显。</li><li><a href="https://blog.patricktriest.com/what-is-async-await-why-should-you-care/" target="_blank" rel="noopener">ASYNC/AWAIT WILL MAKE YOUR CODE SIMPLER</a> 再次安利async await</li></ul><h3 id="React"><a href="#React" class="headerlink" title="React"></a>React</h3><ul><li><a href="https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/" target="_blank" rel="noopener">Controlled and uncontrolled form inputs in React don’t have to be complicated</a>:React controlled component 和uncontrolled component使用场景不同的研究。</li><li><a href="http://www.ruanyifeng.com/blog/2016/02/react-testing-tutorial.html" target="_blank" rel="noopener">React 测试入门教程</a>:React测试的基本做法和最佳实践，手把手教你如何写React测试。</li><li><a href="http://airbnb.io/enzyme/docs/api/" target="_blank" rel="noopener">enzyme</a>:enzyme api。</li></ul><h2 id="酷站推荐"><a href="#酷站推荐" class="headerlink" title="酷站推荐"></a>酷站推荐</h2><ul><li><a href="http://tool.oschina.net/" target="_blank" rel="noopener">前端在线工具</a>： :+1: 墙裂推荐</li><li><a href="https://codepen.io/" target="_blank" rel="noopener">codepen</a>： :+1: 墙裂推荐各种效果秀，只有你想不到，没有它做不到</li><li><a href="https://codepen.io/PavelDoGreat/full/zdWzEL/" target="_blank" rel="noopener">A fantastic WebGL demo by Pavel Dobryakov.</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小程序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>百度又秀下限了？</title>
+      <link href="/ehdfe-weekly/2017/08/18/008.%E7%99%BE%E5%BA%A6%E5%8F%88%E7%A7%80%E4%B8%8B%E9%99%90%E4%BA%86(2017.8.14-2017.8.18)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul><li><a href="http://money.163.com/17/0816/22/CS0BITJO002580S6.html" target="_blank" rel="noopener">MIT公布2017全球青年科技创新人才榜 6名华人上榜</a>: TR35 - 每年在全球评选出35位35岁以下的青年科技才俊</li><li><a href="http://mp.weixin.qq.com/s/9ujAvEzfsOzzw-z12n96ng" target="_blank" rel="noopener">蓝色宝马车主都快被逼疯了！</a>: 共享时代来临!</li><li><a href="http://www.sohu.com/a/164467148_505800" target="_blank" rel="noopener">编程，从来都不晚：来自日本的82岁APP开发者</a>: 从入门到入土</li><li><a href="http://36kr.com/p/5088504.html" target="_blank" rel="noopener">高德地图与千寻位置达成合作，提供高精度“地图+定位”解决方案</a>:感觉高德也是不错的选择</li><li><a href="https://sspai.com/post/40455" target="_blank" rel="noopener">Mac 版微信更新至 v2.3，你可以把微信当笔记本用了</a>:把微信变成笔记本，不但能写字还能同步文件</li><li><a href="http://www.sohu.com/a/164863239_313480" target="_blank" rel="noopener">小猿搜题称被百度作业帮栽赃陷害</a>: 同行竞争的下限在哪里?</li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><h3 id="css"><a href="#css" class="headerlink" title="css"></a>css</h3><ul><li><a href="https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660" target="_blank" rel="noopener">A Unified Styling Language</a>:关于css in js的大讨论</li></ul><h3 id="javascript"><a href="#javascript" class="headerlink" title="javascript"></a>javascript</h3><ul><li><a href="https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/" target="_blank" rel="noopener">how functions work in JavaScript</a>: js函数运行过程中 this是如何绑定的？</li></ul><h3 id="React"><a href="#React" class="headerlink" title="React"></a>React</h3><ul><li><a href="https://facebook.github.io/react/docs/higher-order-components.html" target="_blank" rel="noopener">Higher-Order Components</a>: React高阶组件</li><li><a href="https://medium.com/front-end-developers/building-hocs-with-recompose-7debb951d101" target="_blank" rel="noopener">Building HOCs with Recompose</a>：利用recompose构建高阶组件。</li></ul><h2 id="趣味阅读"><a href="#趣味阅读" class="headerlink" title="趣味阅读"></a>趣味阅读</h2><h3 id="工具推荐"><a href="#工具推荐" class="headerlink" title="工具推荐"></a>工具推荐</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/28487299" target="_blank" rel="noopener">StackBlitz - 针对 Web 开发者的在线 IDE</a>:StackBlitz 是最近公开上线的一款在线 IDE，主要面向 Web 开发者，并且和 VS Code 团队进行了合作，移植了很多 VS Code 的特性与功能，非常的方便易用，在这里推荐给大家。: )</li><li><a href="https://github.com/kyamagu/js-segment-annotator" target="_blank" rel="noopener">基于图像分割的Javascript图像注释工具。</a>: 看着挺有意思的</li><li><a href="https://github.com/GoogleChrome/puppeteer" target="_blank" rel="noopener">Puppeteer</a>: Chrome 官方发布的控制 headless Chrome 的 Node.js API.</li></ul><h3 id="类库推荐"><a href="#类库推荐" class="headerlink" title="类库推荐"></a>类库推荐</h3><ul><li><a href="https://github.com/cssinjs/react-jss" target="_blank" rel="noopener">react-jss</a>:css in js的react实现版。个人感觉写法比css modules更优雅一些，亦可实现css modules的功能。灰常适合组件开发。  著名的React UI组件库 <a href="https://material-ui-1dab0.firebaseapp.com/" target="_blank" rel="noopener">Material</a>也是采用这种形式组织代码的。</li></ul><h3 id="酷站推荐"><a href="#酷站推荐" class="headerlink" title="酷站推荐"></a>酷站推荐</h3><ul><li><a href="http://weavesilk.com/" target="_blank" rel="noopener">silk</a>:随手绘制的绘画网站</li><li><a href="http://www.species-in-pieces.com/" target="_blank" rel="noopener">in-pieces</a>:惟妙惟肖的公益网站</li><li><a href="http://geektyper.com/matrix/" target="_blank" rel="noopener">GeekTyper</a>:在线模拟黑客的虚拟网站</li><li><a href="https://same.com/" target="_blank" rel="noopener">Same</a>:由象形文字组成的社交网站</li><li><a href="http://www.telescopictext.org/" target="_blank" rel="noopener">telescopictext</a>:不断展开文字的写作网站</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 高阶组件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>机器人时代来临</title>
+      <link href="/ehdfe-weekly/2017/08/04/007.%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%97%B6%E4%BB%A3%E6%9D%A5%E4%B8%B4(2017.7.31-2017.8.4)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul><li><a href="https://www.oschina.net/news/87376/angular-5-0-0-beta2" target="_blank" rel="noopener">Angular 5.0.0 beta.2 和 4.3.3 发布</a>正式版预计9-10 月发布</li><li><a href="http://www.nbd.com.cn/articles/2017-08-03/1135139.html" target="_blank" rel="noopener">Facebook否认AI失控：忘记设置英语语法</a>AI觉醒？</li><li><a href="http://iuut.yvhvkb.cn/detail/2017/08/04/1654607.html?content_id=1654607&amp;key=f5b5jJsZ0OVwNXi4ahJIZbekIvleNnky0MTHGGlQSg8p7ZfTnSc_mD54D7Cg3yTeldBDxi1oNrC2b-CRKUYN-67ttbyjGWj5qRfVjN3GfvexUWtzNijH_zT4-FfadyJT5Q9Nb6CokulqyjpT&amp;pv_id=&amp;cid=7&amp;fr=1&amp;i=1880223831" target="_blank" rel="noopener">马云打开中国最大机器人仓库！</a></li><li><a href="http://iuut.yvhvkb.cn/detail/2017/08/04/1656528.html?content_id=1656528&amp;key=600cP0HjZOJsTvV9XP1DYA_Afj_StSRoOmprK8EKVyIec2cGu7wgd3YIynR73vfYhbNycdTuQoaTSKu1fLZMzfmpT94VsgMwwRl0wDfRd-K2cer9o5ZJjUgDm13duicMfxC-Vkg1zfDfZcAm&amp;pv_id=&amp;cid=7&amp;fr=1&amp;i=1880223831" target="_blank" rel="noopener">共享单车又被扔到河里了，不过这一次是在英国</a></li><li><a href="http://iuut.yvhvkb.cn/detail/2017/08/03/1653565.html?content_id=1653565&amp;key=f9eeclilm47_5TkU3RX2bZOk_8CatwrjbQdRE3FkP52xxRtb3mzgxrOSR-scPRrdndNxRrRcvw2dsv_o48W5Vxx2iNw6yV8lseKl1cqkuzlGk0i-1_oMzOeM6dXSDqQCuL3aDuAN-LRliMns&amp;pv_id=&amp;cid=7&amp;fr=1&amp;i=1880223831" target="_blank" rel="noopener">中国科学家：百年后，量子纠缠或让人体实现瞬间转移</a></li><li><a href="http://iuut.yvhvkb.cn/detail/2017/08/03/1653678.html?content_id=1653678&amp;key=80bcJw2C8OUEfnfMIgHwUSTxjALfQKS6ulVkS6pJtNns8bWIeak0xoOtTyra7g4kGoEe7uxCd2Hr1NqprcxUA6-LSJSsC15RjaOPpBn4D6L14fe_xSz4jmx0N6B3rC3lAulU7sfOtVGxiZnE&amp;pv_id=&amp;cid=7&amp;fr=1&amp;i=1880223831" target="_blank" rel="noopener">小米超越苹果公司成为全球第一大可穿戴设备厂商</a></li><li><a href="http://iuut.yvhvkb.cn/detail/2017/08/03/1653970.html?content_id=1653970&amp;key=cdb6NO0b1WTzynSopNEhyoQjhjc7YJCxE-NvTnGOr0OjGZ4onU5BxyOlOLcZYhEY3MT35-eQOmjxVqCCzs83QwOiBa_hTaT_jMAH51OVcmDYprVC32IHIG863vgqz9OJI969lXkldGbjARsY&amp;pv_id=&amp;cid=7&amp;fr=0&amp;i=1880223831" target="_blank" rel="noopener">厉害了，电池有没有电都能看出来，快来学</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzIwMzYwMjkzOQ%3D%3D&amp;idx=1&amp;mid=2247483910&amp;sn=436e342cf677a3d5c4f71e1b9685aac2" target="_blank" rel="noopener">VasSonic轻量级的高性能的Hybrid框架正式开源</a></li><li><a href="https://www.leiphone.com/news/201708/SuCSLWLNMZj0yvB4.html" target="_blank" rel="noopener">谷歌也发布了Web前端机器学习库，就叫deeplearn.js</a></li></ul><h2 id="技术探讨"><a href="#技术探讨" class="headerlink" title="技术探讨"></a>技术探讨</h2><ul><li><a href="https://github.com/tmallfe/tmallfe.github.io/issues/37" target="_blank" rel="noopener">聊一聊自动化测试那些事</a> 讲解了如何迅速配置出简单的测试工具，采用测试框架Mocha,断言库should,代码覆盖率工具istanbul。quarkui需要的测试工具基本都有覆盖到</li><li><p><a href="http://web.jobbole.com/91803/" target="_blank" rel="noopener">纯 CSS 实现波浪效果！</a></p></li><li><p><a href="https://medium.com/@GeoffMiller/how-to-customize-ant-design-with-react-webpack-the-missing-guide-c6430f2db10f" target="_blank" rel="noopener">How to Customize Ant Design with React &amp; Webpack… the Missing Guide</a>: 如何自定义 ant design样式。</p></li><li><a href="https://www.oschina.net/news/82988/google-opensource-guetzli" target="_blank" rel="noopener">Google 开源图像算法工具 Guetzli，高质量压缩图片</a>Google 称 Guetzli 创建高质量的 JPEG 图像文件的大小比当前的压缩方法要再小 35％。Guetzli 努力通过一个搜索算法，来克服 JPEG 格式的精神视觉模型与 Guetzli 的精神视觉模型之间的差别，以一种更全面更详细的方式来结合色彩感知和视觉掩蔽，从而在最小化损失和最小化图像尺寸中达到平衡。不过，尽管 Guetzli 可以使图像尺寸更小，但创建压缩图像所花费的时间要与目前的方法更长。</li><li><a href="https://github.com/denysdovhan/wtfjs" target="_blank" rel="noopener">What the f*ck JavaScript?</a>:话糙理不糙，关于js“让人蛋疼”的知识点。</li><li><a href="https://my.oschina.net/antianlu/blog/261105" target="_blank" rel="noopener">Node.js http.Agent实现真正的keep-Alive代理</a></li></ul><h3 id="flex"><a href="#flex" class="headerlink" title="flex"></a>flex</h3><ul><li><a href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html" target="_blank" rel="noopener">Flex 布局教程：语法篇</a></li><li><a href="http://www.css88.com/archives/7212" target="_blank" rel="noopener">更多关于Flexbox布局如何工作的 – 用大彩图和GIF动画解释1</a></li><li><a href="http://www.css88.com/archives/7236" target="_blank" rel="noopener">更多关于Flexbox布局如何工作的 – 用大彩图和GIF动画解释2</a></li></ul><h2 id="圈里那些事"><a href="#圈里那些事" class="headerlink" title="圈里那些事"></a>圈里那些事</h2><ul><li><a href="http://damoqiongqiu.github.io/web%E5%89%8D%E7%AB%AF/2017/08/02/Angular-vs-Vue.html" target="_blank" rel="noopener">Angular有哪些地方比Vue更优秀？–大漠穷秋</a>: 神仙打架</li><li><a href="https://zhuanlan.zhihu.com/p/28282605" target="_blank" rel="noopener">为什么只会Vue的都是前端小白？–大漠穷秋</a>: 神仙打架2</li><li><a href="https://zhuanlan.zhihu.com/p/28284087" target="_blank" rel="noopener">回应『Angular有哪些地方比Vue更优秀？』–尤雨溪</a>: 神仙打架3</li><li><a href="https://zhuanlan.zhihu.com/p/28343146" target="_blank" rel="noopener">致歉信–大漠穷秋</a>: 神仙打架结束</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自动化 </tag>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>别了，Flash</title>
+      <link href="/ehdfe-weekly/2017/07/28/006.%E5%88%AB%E4%BA%86%EF%BC%8CFlash(2017.7.24-2017.7.28)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul><li><a href="http://tech.feng.com/2017-07-24/Tongji-university-textbooks-magic-let-AR-log-in-primary-and-secondary-school-textbooks_686293.shtml" target="_blank" rel="noopener">同济大学研制“魔法课本”：让AR登入中小学课本</a>将普通课本和 AR 技术相结合，给中小学生在阅读当中也能体验一把全新的科技感</li><li><a href="http://www.thepaper.cn/baidu.jsp?contid=1741219" target="_blank" rel="noopener">圆通回应被京东“拉黑”：反对一切依靠平台霸权强迫站队行为</a> 圆通就被京东“拉黑”作回应：影响极为有限 反对“平台霸权”</li><li><a href="http://tech.sina.com.cn/it/2017-07-24/doc-ifyihrmf3288513.shtml" target="_blank" rel="noopener">微软致力AI芯片研发 翻译30亿字仅需十分之一秒</a> 现场可编程门阵列</li><li><a href="http://www.sohu.com/a/160175223_114760" target="_blank" rel="noopener">微软AI聊天机器人Zo吐槽win10没有win8及老版本好用</a>business insider对微软AI聊天机器人Zo的聊天测试中，问到win10是否好用，Zo回答“这不是一个BUG，而是一个功能”。相比win10，Zo更喜欢win8，甚至怀念XP，要知道，Zo本身是在win7上面运行的。</li><li><a href="https://www.sohu.com/a/159983536_114837" target="_blank" rel="noopener">Adobe将于2020年停止开发和更新Flash插件</a><br>2017年7月26日，Adobe 宣布，计划终结 Flash 浏览器插件，并在2020年停止开发和分发这款插件。Adobe 建议内容创作者将 Flash 内容移植到 HTML5、WebGL 以及 WebAssembly 格式。2020年前，Adobe Flash会继续支持主要操作系统和浏览器，发布安全更新，维持系统和浏览器兼容性，根据情况推出新功能。</li></ul><h2 id="酷站推荐"><a href="#酷站推荐" class="headerlink" title="酷站推荐"></a>酷站推荐</h2><ul><li><a href="https://dimmy.club/" target="_blank" rel="noopener">Device mockup generator for your screenshots</a> 给你的截屏套个壳</li><li><a href="https://www.twinsornot.net" target="_blank" rel="noopener">twins or not?</a>:看看我们究竟有多像</li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="https://segmentfault.com/a/1190000005089993#articleHeader0" target="_blank" rel="noopener">Webpack——令人困惑的地方</a><h3 id="GraphQL"><a href="#GraphQL" class="headerlink" title="GraphQL"></a>GraphQL</h3><blockquote><p>还在使用 restful API，或者连 restful 都不是，那就太落伍了。告诉你，马上或正在流行的是 GraphQL，下面为你精选了几片入门好文。Long live GraphQL！</p></blockquote></li><li><a href="http://www.jianshu.com/p/2ec22fc1219c" target="_blank" rel="noopener">Graphql入门</a></li><li><a href="https://laravel-china.org/topics/3112/why-did-github-open-a-graphql-version-of-api" target="_blank" rel="noopener">GitHub 为什么开放了一套 GraphQL 版本的 API？</a></li><li><a href="http://www.zcfy.cc/article/so-what-s-this-graphql-thing-i-keep-hearing-about-freecodecamp-2719.html" target="_blank" rel="noopener">GraphQL 的庐山真面目</a></li><li><a href="https://segmentfault.com/a/1190000005766732" target="_blank" rel="noopener">GraphQL初探:从REST到GraphQL，更完善的数据查询定义</a><h3 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h3></li><li><a href="https://www.bilibili.com/video/av12465079/" target="_blank" rel="noopener">想知道比特币（和其他加密货币）的原理吗?(ps:区块链)</a>讲解比特币的原理，区块链的运行方式</li><li><a href="http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html" target="_blank" rel="noopener">如何选择开源许可证？</a>：关于Reactjs许可争议，我们需要了解的开源许可</li><li><a href="http://web.jobbole.com/91864/" target="_blank" rel="noopener">我们用 JavaScript Hack 了家里的咖啡机</a>：用 JavaScript 构建一个网络驱动的咖啡机</li></ul><h2 id="技术相关"><a href="#技术相关" class="headerlink" title="技术相关"></a>技术相关</h2><ul><li><a href="https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b" target="_blank" rel="noopener">Introducing npx: an npm package runner</a>npx is a tool intended to help round out the experience of using packages from the npm registry </li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 正则表达式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>JSConf2017来袭</title>
+      <link href="/ehdfe-weekly/2017/07/21/005.JSConf2017%E6%9D%A5%E8%A2%AD(2017.7.17-2017.7.21)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul><li><a href="https://juejin.im/post/5969821851882534a31cab5b?utm_source=gold_browser_extension" target="_blank" rel="noopener">听说你没来 JSConf 2017？</a></li><li><a href="http://www.cnbeta.com/articles/tech/631029.htm" target="_blank" rel="noopener">ECMAScript 2017 语言规范发布</a></li><li><a href="https://mp.weixin.qq.com/s/iabl8WN9v2Hh2vegHnvqng" target="_blank" rel="noopener">程序员头条</a></li><li><a href="https://github.com/xitu/gold-miner/blob/master/TODO/upcoming-regexp-features.md" target="_blank" rel="noopener">即将到来的正则表达式新特性</a></li><li><a href="http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=2651552358&amp;idx=1&amp;sn=a5d800e86eeb37c04f0f462d6a877472&amp;chksm=8025ada7b75224b1ea8ed673a19d98158d927471d2e1a83429962d8a3967800c69fffdf08959&amp;mpshare=1&amp;scene=1&amp;srcid=0721bJOvuOwt5YylLkYZJBeZ#rd" target="_blank" rel="noopener">2017 开发者生态报告：JS 是最常用的语言</a></li><li><p><a href="http://mp.weixin.qq.com/s/XM16ucaVt04iA4I7m0ApvA" target="_blank" rel="noopener">安利公众号-前端之巅</a></p><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2></li><li><p><a href="http://www.lovebxm.com/2017/05/31/RegExp/" target="_blank" rel="noopener">最全正则表达式总结：验证QQ号、手机号、Email、中文、邮编、身份证、IP地址等</a></p></li><li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&amp;mid=2651226713&amp;idx=1&amp;sn=d3a18f34320fa70d0e253cfa655e1738&amp;chksm=bd495bdd8a3ed2cba1c919e533b1190252b93ff4d29d073d0f8e686aa854bca324faf5800604&amp;mpshare=1&amp;scene=23&amp;srcid=0718AqDbUtuXwTmMx3PZYWPT#rd" target="_blank" rel="noopener">从 JavaScript 到 TypeScript</a></li><li><a href="https://medium.com/@rajaraodv/webpacks-hmr-react-hot-loader-the-missing-manual-232336dc0d96" target="_blank" rel="noopener">Webpack’s HMR &amp; React-Hot-Loader — The Missing Manual</a>:详解webpack热加载 <a href="https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07" target="_blank" rel="noopener">附</a></li><li><a href="https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/stack/images/intro/all-page-stack-reconciler.svg" target="_blank" rel="noopener">React生命周期</a></li><li><a href="http://mp.weixin.qq.com/s?__biz=MzA4NjE3MDg4OQ==&amp;mid=2650964839&amp;idx=1&amp;sn=7c3ba00f6fc38a88324602f669bc385d&amp;chksm=843aef01b34d6617ef696e2d5140d977451fb0c60ccddd7235075b725a2271b9610d0b2b3913&amp;mpshare=1&amp;scene=1&amp;srcid=0721dNLIpHpu7j7VtRHMqD2E#rd" target="_blank" rel="noopener">虚拟 DOM 内部是如何工作的？</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 正则表达式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>百度无人车上路</title>
+      <link href="/ehdfe-weekly/2017/07/14/004.%E7%99%BE%E5%BA%A6%E6%97%A0%E4%BA%BA%E8%BD%A6%E4%B8%8A%E8%B7%AF(2017.7.10-2017.7.14)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul><li><a href="http://www.pmtown.com/archives/27261" target="_blank" rel="noopener">芝麻信用刷分产业链曝光：高分只需400元、王者荣耀2017年Q1收入占腾讯11%达60亿元、速递易主体重组并更名中邮速递易</a></li><li><a href="http://www.pmtown.com/archives/27888" target="_blank" rel="noopener">阿里健康推医疗AI系统十年内要替代医生一半工作量、乐视官网停售所有手机、LV推出智能手表售价1.6万起、</a></li><li><a href="http://www.pmtown.com/archives/28386" target="_blank" rel="noopener">工信部否认要运营商禁止个人VPN业务、传软银将投资OFO、苹果投资10亿在贵州建立数据中心、直播平台将在7月15日开始备案</a></li><li><a href="http://news.mydrivers.com/1/539/539999.htm" target="_blank" rel="noopener">李彦宏首次回应无人车上路：未来它一定比司机更安全</a></li><li><a href="http://www.xtecher.com/Xfeature/view?aid=7162" target="_blank" rel="noopener">李彦宏无人驾驶汽车上路，交警就此展开调查</a></li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="http://www.css88.com/archives/7628" target="_blank" rel="noopener">JavaScript 模块简史</a></li><li><a href="http://www.ruanyifeng.com/blog/2014/12/unicode.html" target="_blank" rel="noopener">Unicode与JavaScript详解</a></li><li><a href="https://zhuanlan.zhihu.com/p/27417442" target="_blank" rel="noopener">正则表达式回溯法原理</a></li><li><a href="https://cnodejs.org/topic/56c49662db16d3343df34b13" target="_blank" rel="noopener">理解Object.assign</a></li></ul><h2 id="扩展读物"><a href="#扩展读物" class="headerlink" title="扩展读物"></a>扩展读物</h2><ul><li><a href="http://mp.weixin.qq.com/s/D7p7W0Oe6EPmJeoWACQ44w" target="_blank" rel="noopener">如何送货最省钱？菜鸟自研核心引擎架构首次曝光！</a></li><li><a href="http://mp.weixin.qq.com/s/UZYwxbrr1yP4rEV8f5Bshg" target="_blank" rel="noopener">饿了么联合创始人汪渊：最重要的是选择，最困难的是坚持</a></li><li><a href="http://mp.weixin.qq.com/s/IIJIqRYPm1PSpobwbSYfsg" target="_blank" rel="noopener">蚂蚁金服CTO程立：技术的价值与意义，在我看来是这样的</a></li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 正则表达式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>我接触过的前端数据结构与算法</title>
+      <link href="/ehdfe-weekly/2017/07/07/003.%E6%88%91%E6%8E%A5%E8%A7%A6%E8%BF%87%E7%9A%84%E5%89%8D%E7%AB%AF%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95(2017.7.3-2017.7.7)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="技术趣闻"><a href="#技术趣闻" class="headerlink" title="技术趣闻"></a>技术趣闻</h2><p>  本周趣闻采用 <a href="http://top.jobbole.com/?sort=latest" target="_blank" rel="noopener">伯乐在线</a></p><h2 id="新闻热点"><a href="#新闻热点" class="headerlink" title="新闻热点"></a>新闻热点</h2><ul><li><a href="http://tech.ifeng.com/a/20170630/44645185_0.shtml" target="_blank" rel="noopener">马云吹的牛逼又成真一个，阿里无人超市落地</a></li><li><a href="http://tech.sina.com.cn/roll/2017-07-09/doc-ifyhvyie0662292.shtml" target="_blank" rel="noopener">体验阿里无人超市 没有收银台完成“剁手”只需5秒</a></li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="http://web.jobbole.com/91506/" target="_blank" rel="noopener">不要再在 JavaScript 中写 CSS 了</a> 明白自己使用 styled-components 的真正原因。</li><li><a href="https://juejin.im/post/5958bac35188250d892f5c91" target="_blank" rel="noopener">我接触过的前端数据结构与算法</a></li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="http://www.jianshu.com/p/0e5b946880b4" target="_blank" rel="noopener">刨根问底HTTP和WebSocket协议</a> 介绍了HTTP1.1协议的基本内容</li><li><a href="http://www.jianshu.com/p/f666da1b1835" target="_blank" rel="noopener">刨根问底HTTP和WebSocket协议(二）</a> 分析WebSocket协议，然后对这两个进行简单的比较。</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>为什么这么多的顶尖黑客来自俄罗斯？</title>
+      <link href="/ehdfe-weekly/2017/06/30/002.%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B9%88%E5%A4%9A%E7%9A%84%E9%A1%B6%E5%B0%96%E9%BB%91%E5%AE%A2%E6%9D%A5%E8%87%AA%E4%BF%84%E7%BD%97%E6%96%AF%EF%BC%9F(2017.6.26-2017.6.30)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="技术趣闻"><a href="#技术趣闻" class="headerlink" title="技术趣闻"></a>技术趣闻</h2><p>  本周趣闻采用 <a href="http://zhuanlan.51cto.com/art/201706/543307.htm" target="_blank" rel="noopener">白熊技术八卦</a></p><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="http://shubo.io/2016/10/16/filtering-redux-state-with-react-router-params.html" target="_blank" rel="noopener">如何和React Router搭配使用redux</a>:在写组件之外，我们进一步思考，如何应用react全家桶来构建整个应用。</li><li><a href="https://deerchao.net/tutorials/regex/regex.htm" target="_blank" rel="noopener">正则表达式30分钟入门教程</a>:正则表达式快速入门</li><li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&amp;mid=2651226630&amp;idx=1&amp;sn=679db84c8f3c1d7267a5ff1531bb089f&amp;chksm=bd495b828a3ed2940323a60e39190118c7bcfb33040ee3278226847d87e7588ca748dc54180e&amp;mpshare=1&amp;scene=23&amp;srcid=06266r0mI6RsN3TirjGE12ch#rd" target="_blank" rel="noopener">正则表达式回溯法原理</a>：正则表达式背后的“魔法”</li><li><a href="http://www.cnn6.net/html/itok/2017629/202198.html" target="_blank" rel="noopener">CDN的技术原理及资源访问流程</a>:CDN到底如何实现的？</li><li><a href="http://www.ruanyifeng.com/blog/2017/05/websocket.html" target="_blank" rel="noopener">websocket教程</a>:初次接触 WebSocket 的人，都会问同样的问题：我们已经有了 HTTP 协议，为什么还需要另一个协议？它能带来什么好处？</li><li><a href="https://segmentfault.com/a/1190000007642740" target="_blank" rel="noopener">react从项目深入</a>: 从完整项目，谈对react 理解，其中包含 Diff 算法、生命周期、react-router 、React-Redux 等</li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="https://tutorialzine.com/2017/06/15-essential-plugins-for-visual-studio-code" target="_blank" rel="noopener">essential-plugins-for-visual-studio-code</a>:vscode常用插件</li><li><a href="https://segmentfault.com/a/1190000009985489?_ea=2120243#articleHeader11" target="_blank" rel="noopener">github:你不得不上的交友网站</a>:github面面观</li><li><a href="http://geek.csdn.net/news/detail/208346" target="_blank" rel="noopener">为什么这么多的顶尖黑客来自俄罗斯？</a>：战斗民族养成记</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> react </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>用空格缩进的程序员赚钱更多?</title>
+      <link href="/ehdfe-weekly/2017/06/23/001.%E7%94%A8%E7%A9%BA%E6%A0%BC%E7%BC%A9%E8%BF%9B%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98%E8%B5%9A%E9%92%B1%E6%9B%B4%E5%A4%9A(2017.6.19-2017.6.23)/"/>
+      <content type="html"><![CDATA[<p><img src="https://zhitu.isux.us/assets/img/imgSample/test-60.jpg" alt="post-cover"></p><h2 id="技术趣闻"><a href="#技术趣闻" class="headerlink" title="技术趣闻"></a>技术趣闻</h2><ul><li><a href="https://juejin.im/post/592faca42f301e006bc791e0" target="_blank" rel="noopener">webpack 3 发布</a>:这次没有 beta 版本，完全向下兼容。从 webpack 2 迁移到 3，你只需要执行升级命令，而不需要修改任何代码。我们将这次升级标记为版本的重大升级，是因为内部的突破性变化可能会影响某些插件的使用。<br>到目前为止，98% 的升级的用户都没有遇到任何不兼容！</li><li><a href="https://facebook.github.io/react/blog/2017/06/13/react-v15.6.0.html" target="_blank" rel="noopener">React 15.6.0 发布</a>：React 15.6.0 中主要带来了输入域的提升以及对于 Deprecation 提示的优化。该版本中 onChange 事件响应会变得更加稳定，并且能够处理 IE11 中存在的部分临界情况；同时该版本还优化了对于使用废弃接口的提示，不再强行使用 console.error 提示，而是替换为了 console.warn。</li><li><a href="https://zhuanlan.zhihu.com/p/26680273" target="_blank" rel="noopener">nodejs 8.0发布</a>：随着 node 8.0的发布，npm 5.0发布。对前端而言，我们或许更关注npm的版本升级带来的<a href="http://www.qingpingshan.com/m/view.php?aid=282888" target="_blank" rel="noopener">新特性</a>。</li></ul><h2 id="技术深入"><a href="#技术深入" class="headerlink" title="技术深入"></a>技术深入</h2><ul><li><a href="https://hacks.mozilla.org/2017/06/a-crash-course-in-memory-management/" target="_blank" rel="noopener">js内存管理速成</a>:本系列文章以漫画的方式生动有趣地介绍了 JavaScript 中内存管理的相关知识，首先介绍了 JavaScript 与 C 这两个风格迥异的语言是如何进行内存管理的，然后讨论了 ArrayBuffers 与 ShardArrayBuffurs 存在的意义以及可能引起的临界情况，最后讨论了在未来 WebAssembly 开发中应该如何使用 Atomics 来处理并发情况下的临界情况。</li><li><a href="http://mp.weixin.qq.com/s/WAoeyuWDe6shaiLomcB0hw" target="_blank" rel="noopener">React + webpack 之性能优化</a>:代码合并与分割永远是webpack打包考虑的重点。</li><li><a href="http://blog.mtxcxin.cn/blog/git%E5%A6%82%E4%BD%95%E5%9B%9E%E6%BB%9A%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93.html" target="_blank" rel="noopener">git如何回滚远程仓库</a>:使用git管理项目开发的过程中经常会碰到这种情况：某次提交已经push到了远程仓库，可是突然意识到“天哪，我怎么做了这么蠢的事情”。那么问题来了，怎么将远程代码库回滚呢？</li><li><a href="https://certsimple.com/blog/javascript-equals-async-await" target="_blank" rel="noopener">ES2017’s async/await is the best thing to ever happen to JavaScript</a>: 扔掉 callback，扔掉 promise，安利 async/await</li><li><a href="https://hackernoon.com/machine-learning-with-javascript-part-1-9b97f3ed4fe5" target="_blank" rel="noopener">Machine Learning with JavaScript : Part 1</a>: JS 机器学习</li><li><a href="https://my.oschina.net/powertoolsteam/blog/955331" target="_blank" rel="noopener">JavaScript ES2017 中值得期待的功能 </a>:make javascript powerful!</li><li><a href="http://mp.weixin.qq.com/s/rgVIG4_78UmovzupVe6XIQ" target="_blank" rel="noopener">React 源码剖析系列 － 不可思议的 react diff </a>:本文从源码入手，深入剖析 React diff 的不可思议之处。</li></ul><h2 id="兴趣阅读"><a href="#兴趣阅读" class="headerlink" title="兴趣阅读"></a>兴趣阅读</h2><ul><li><a href="http://stormzhang.com/2017/06/19/stackoverflow-developer-survey-2017/?utm_source=tuicool&amp;utm_medium=referral" target="_blank" rel="noopener">STACK OVERFLOW 2017 开发者调查报告</a>:报告告诉我们：请珍惜身旁的女程序员。</li><li><a href="https://segmentfault.com/a/1190000009819740" target="_blank" rel="noopener">为您的 Node 性能选择最佳的 JS 引擎</a>:不同js引擎下同样程序执行效率差异。附带一个神奇的网站:<a href="https://sqreen.github.io/node_engine_bench/" target="_blank" rel="noopener">Picking the best JS engine for your Node app’s performance </a></li><li><a href="https://my.oschina.net/powertoolsteam/blog/913075" target="_blank" rel="noopener">Node.js 8有哪些重要功能和修复</a>:介绍Node.js 8版本中最重要的功能和修复。</li><li><p><a href="https://www.oschina.net/translate/upgrading-from-node-6-to-node-8" target="_blank" rel="noopener">由 Node 6 升级至 Node 8：实际性能比较 </a>:性能的提升总是一件exciting的事情。</p></li><li><p><a href="https://juejin.im/post/592faca42f301e006bc791e0" target="_blank" rel="noopener">前端劝退指南</a>:2017前端开发指南，篇幅很长，请在家长陪同下观看</p></li><li><a href="http://mp.weixin.qq.com/s?__biz=MjM5NzU0MzU0Nw==&amp;mid=2651375004&amp;idx=1&amp;sn=4e9f891ccce9b2b8d069fb9230b238e8&amp;chksm=bd240e888a53879ea82c21defbb04b6f64f107d9c00a977d3bcdb38a8f20b40a1d5a6e6fef07&amp;mpshare=1&amp;scene=1&amp;srcid=0620Xvw6la4lL34ld1HcJfEC#rd" target="_blank" rel="noopener">用空格缩进的程序员赚钱更多</a>:早说让你们用空格吧，还不信</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 周报 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> webpack </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+</search>

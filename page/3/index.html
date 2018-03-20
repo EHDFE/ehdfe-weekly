@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html class="full-height">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//cdn.bootcss.com/bulma/0.4.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  
+  <title>易周刊</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="易货嘀前端团队周报与个人学习心得">
+<meta property="og:type" content="website">
+<meta property="og:title" content="易周刊">
+<meta property="og:url" content="https://ehdfe.github.io/ehdfe-weekly/page/3/index.html">
+<meta property="og:site_name" content="易周刊">
+<meta property="og:description" content="易货嘀前端团队周报与个人学习心得">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="易周刊">
+<meta name="twitter:description" content="易货嘀前端团队周报与个人学习心得">
+  
+    <link rel="alternate" href="/atom.xml" title="易周刊" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/ehdfe-weekly/css/common.css">
+<link rel="stylesheet" href="/ehdfe-weekly/css/nav.css">
+<link rel="stylesheet" href="/ehdfe-weekly/css/layout.css">
+  
+
+</head>
+
+<body>
+  <header id="navbar" class="overflow-hidden">
+  <div class="container">
+    <nav class="nav">
+         <div class="nav-left">
+            <a href="/ehdfe-weekly/" class="nav-item" style="font-size: 20px;">
+                <span class="logo">易周刊</span>
+            </a>
+         </div>
+        <div class="nav-center is-hidden position-relative" id="search_container">
+            <div class="nav-item full-width full-height">
+                <i class="fa fa-search has-padding" aria-hidden="true"></i>
+                <input type="text" id="search_input" class="search-input full-height full-width" placeholder="Search post" autofocus>
+                <i id="close_search" class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div id="search_result"></div>
+        </div>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" id="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            
+            <a class="nav-item" href="/ehdfe-weekly/">
+                Home
+            </a>
+            
+            <a class="nav-item" href="/ehdfe-weekly/about">
+                About
+            </a>
+            
+        </div>
+        <span class="nav-toggle" id="navMenuDropdown">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+        <div class="navbar-menu position-absolute full-width content-box is-hidden-desktop is-flex flex-column center" style="top: 100%;">
+            
+            <a class="nav-item flex-1" href="/ehdfe-weekly/">
+                Home
+            </a>
+            
+            <a class="nav-item flex-1" href="/ehdfe-weekly/about">
+                About
+            </a>
+            
+        </div>
+    </nav>
+  </div>
+</header>
+
+  <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
+      <div class="main-inner-content">
+          <style>
+    .post-hover:hover {
+        box-shadow: inset 0 0 100px #000;
+        transition: box-shadow .2s;
+    }
+
+    .sub-post-container .post-hover:hover h3 {
+        text-decoration: underline gray;
+    }
+
+
+    .primary-item-main {
+        height: 330px;
+        background-size: cover;
+    }
+
+    .primary-container .title,
+    .primary-container .sub-title,
+    .primary-container .post-content-text,
+    .primary-container .date {
+        color: #fff;
+    }
+
+    .post-content-text {
+        color: #f1f1f1!important;
+    }
+
+    .primary-container .post-hover {
+        background: black;
+    }
+
+    .content-bg-mask {
+        background: rgba(0,0,0,.4);
+    }
+
+</style>
+
+<div style="background: #f5f8f9;">
+    <div id="main-container" class="container" style="padding-top: 20px;">
+        <div class="is-flex main-content justify-center">
+            <section class="column is-9">
+                
+<div class="primary-container content-box is-flex-desktop clear-padding bottom-line" style="margin-bottom: 25px;">
+    <div class="column  is-7-desktop">
+        <a href="/ehdfe-weekly/2017/08/25/009.支付宝也搞了个小程序(2017.8.21-2017.8.25)/">
+            <div class="full-height post-hover"
+                 style="
+                         background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg');
+                         height: 350px;
+                         background-size: cover;
+                         background-repeat: no-repeat;
+                         ">
+                    <div class=" is-flex flex-column center content has-text-centered full-height has-padding content-bg-mask">
+                        <h1 class="title text-shadow" style="margin-bottom: 15px;">
+                            支付宝也搞了个小程序
+                        </h1>
+                        <div>
+                        
+                            `
+                                <span class="tag is-post-tag">小程序</span>
+                            
+                        
+                        </div>
+                        <p class="post-content-text is-marginless has-padding text-shadow">
+                            
+新闻热点
+支付宝小程序开始公测，可接入芝麻信用评分:微信小程序开放半年后，支付宝小程序开始公测了。
+支付宝发道歉信 承认抄袭微信小程序代码:支付宝小程序团队在编写开发文档的示例部分时，直接copy了微信的示例。
+ofo开启解锁新姿势 ..
+                        </p>
+                        <p class="date text-shadow">2017-08-25</p>
+                        <button class="button is-info is-small">Read More</button>
+                    </div>
+            </div>
+        </a>
+    </div>
+    <div class="column is-5 is-hidden-touch" style="padding-left: 0;">
+        <div class="full-height is-flex flex-column justify-space-between" style="min-height: 350px;">
+            
+                
+<a class="post-hover" href="/ehdfe-weekly/2017/08/18/008.百度又秀下限了(2017.8.14-2017.8.18)/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                百度又秀下限了？
+            </h3>
+            
+            
+            <span class="tag is-post-tag">高阶组件</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                
+新闻热点
+MIT公布2017全球青年科技创新人才榜 6名华人上榜: TR35 - 每年在全球评..
+            </p>
+            <p class="date text-shadow is-marginless">2017-08-18</p>
+        </div>
+    </div>
+</a>
+            
+            
+                
+<a class="post-hover" href="/ehdfe-weekly/2017/08/04/007.机器人时代来临(2017.7.31-2017.8.4)/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                机器人时代来临
+            </h3>
+            
+            
+            <span class="tag is-post-tag">自动化</span>
+            
+            <span class="tag is-post-tag">测试</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                
+新闻热点
+Angular 5.0.0 beta.2 和 4.3.3 发布正式版预计9-10 月..
+            </p>
+            <p class="date text-shadow is-marginless">2017-08-04</p>
+        </div>
+    </div>
+</a>
+            
+        </div>
+    </div>
+    <div class="column is-12 is-hidden-desktop">
+        
+        
+<a class="post-hover" href="/ehdfe-weekly/2017/08/18/008.百度又秀下限了(2017.8.14-2017.8.18)/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                百度又秀下限了？
+            </h3>
+            
+            
+            <span class="tag is-post-tag">高阶组件</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                
+新闻热点
+MIT公布2017全球青年科技创新人才榜 6名华人上榜: TR35 - 每年在全球评..
+            </p>
+            <p class="date text-shadow is-marginless">2017-08-18</p>
+        </div>
+    </div>
+</a>
+        
+        
+        
+<a class="post-hover" href="/ehdfe-weekly/2017/08/04/007.机器人时代来临(2017.7.31-2017.8.4)/" style="height: 48.5%">
+    <div class="content is-hidden-touch full-height overflow-hidden" style="background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+        <div class="content-bg-mask full-width full-height has-padding">
+            <h3 class="title is-marginless text-shadow">
+                机器人时代来临
+            </h3>
+            
+            
+            <span class="tag is-post-tag">自动化</span>
+            
+            <span class="tag is-post-tag">测试</span>
+            
+            
+            <p class="sub-title text-shadow"></p>
+            <p class="is-marginless text-shadow post-content-text">
+                
+新闻热点
+Angular 5.0.0 beta.2 和 4.3.3 发布正式版预计9-10 月..
+            </p>
+            <p class="date text-shadow is-marginless">2017-08-04</p>
+        </div>
+    </div>
+</a>
+        
+    </div>
+</div>
+
+                    
+                    
+                
+                    
+                        <div class="content-box  is-hidden-desktop" style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/ehdfe-weekly/2017/08/18/008.百度又秀下限了(2017.8.14-2017.8.18)/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+                                    </div>
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>百度又秀下限了？</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">高阶组件</span>
+                                            
+                                        </p>
+                                        <p>
+                                            
+新闻热点
+MIT公布2017全球青年科技创新人才榜 6名华人上榜: TR35 - 每年在全球评选出35位35岁以下的青年科技才俊
+蓝色宝马车主都快被逼疯了！: 共享时代来临!
+编程，从来都不晚：来自日本的82岁APP开发者: 从入门到入土
+高德地图与千寻位置达成合作，提供高精度“地图+定位”解决方案:感觉高德也是不错的选择
+Mac 版微信更新至 v2...
+                                        </p>
+                                        <p>2017-08-18</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  is-hidden-desktop" style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/ehdfe-weekly/2017/08/04/007.机器人时代来临(2017.7.31-2017.8.4)/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+                                    </div>
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>机器人时代来临</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">自动化</span>
+                                            
+                                                <span class="tag is-post-tag">测试</span>
+                                            
+                                        </p>
+                                        <p>
+                                            
+新闻热点
+Angular 5.0.0 beta.2 和 4.3.3 发布正式版预计9-10 月发布
+Facebook否认AI失控：忘记设置英语语法AI觉醒？
+马云打开中国最大机器人仓库！
+共享单车又被扔到河里了，不过这一次是在英国
+中国科学家：百年后，量子纠缠或让人体实现瞬间转移
+小米超越苹果公司成为全球第一大可穿戴设备厂商
+厉害了，电池有没有电都能看..
+                                        </p>
+                                        <p>2017-08-04</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/ehdfe-weekly/2017/07/28/006.别了，Flash(2017.7.24-2017.7.28)/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+                                    </div>
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>别了，Flash</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">正则表达式</span>
+                                            
+                                        </p>
+                                        <p>
+                                            
+新闻热点
+同济大学研制“魔法课本”：让AR登入中小学课本将普通课本和 AR 技术相结合，给中小学生在阅读当中也能体验一把全新的科技感
+圆通回应被京东“拉黑”：反对一切依靠平台霸权强迫站队行为 圆通就被京东“拉黑”作回应：影响极为有限 反对“平台霸权”
+微软致力AI芯片研发 翻译30亿字仅需十分之一秒 现场可编程门阵列
+微软AI聊天机器人Zo吐槽win1..
+                                        </p>
+                                        <p>2017-07-28</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/ehdfe-weekly/2017/07/21/005.JSConf2017来袭(2017.7.17-2017.7.21)/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+                                    </div>
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>JSConf2017来袭</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">正则表达式</span>
+                                            
+                                        </p>
+                                        <p>
+                                            
+新闻热点
+听说你没来 JSConf 2017？
+ECMAScript 2017 语言规范发布
+程序员头条
+即将到来的正则表达式新特性
+2017 开发者生态报告：JS 是最常用的语言
+安利公众号-前端之巅
+技术深入
+最全正则表达式总结：验证QQ号、手机号、Email、中文、邮编、身份证、IP地址等
+
+从 JavaScript 到 TypeScript
+W..
+                                        </p>
+                                        <p>2017-07-21</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/ehdfe-weekly/2017/07/14/004.百度无人车上路(2017.7.10-2017.7.14)/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+                                    </div>
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>百度无人车上路</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">正则表达式</span>
+                                            
+                                        </p>
+                                        <p>
+                                            
+新闻热点
+芝麻信用刷分产业链曝光：高分只需400元、王者荣耀2017年Q1收入占腾讯11%达60亿元、速递易主体重组并更名中邮速递易
+阿里健康推医疗AI系统十年内要替代医生一半工作量、乐视官网停售所有手机、LV推出智能手表售价1.6万起、
+工信部否认要运营商禁止个人VPN业务、传软银将投资OFO、苹果投资10亿在贵州建立数据中心、直播平台将在7月15日..
+                                        </p>
+                                        <p>2017-07-14</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/ehdfe-weekly/2017/07/07/003.我接触过的前端数据结构与算法(2017.7.3-2017.7.7)/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+                                    </div>
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>我接触过的前端数据结构与算法</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">算法</span>
+                                            
+                                                <span class="tag is-post-tag">数据结构</span>
+                                            
+                                        </p>
+                                        <p>
+                                            
+技术趣闻  本周趣闻采用 伯乐在线
+新闻热点
+马云吹的牛逼又成真一个，阿里无人超市落地
+体验阿里无人超市 没有收银台完成“剁手”只需5秒
+
+技术深入
+不要再在 JavaScript 中写 CSS 了 明白自己使用 styled-components 的真正原因。
+我接触过的前端数据结构与算法
+
+兴趣阅读
+刨根问底HTTP和WebSocket协议 介绍了..
+                                        </p>
+                                        <p>2017-07-07</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/ehdfe-weekly/2017/06/30/002.为什么这么多的顶尖黑客来自俄罗斯？(2017.6.26-2017.6.30)/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+                                    </div>
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>为什么这么多的顶尖黑客来自俄罗斯？</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">react</span>
+                                            
+                                        </p>
+                                        <p>
+                                            
+技术趣闻  本周趣闻采用 白熊技术八卦
+技术深入
+如何和React Router搭配使用redux:在写组件之外，我们进一步思考，如何应用react全家桶来构建整个应用。
+正则表达式30分钟入门教程:正则表达式快速入门
+正则表达式回溯法原理：正则表达式背后的“魔法”
+CDN的技术原理及资源访问流程:CDN到底如何实现的？
+websocket教程:初次接..
+                                        </p>
+                                        <p>2017-06-30</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                    
+                        <div class="content-box  " style="margin-bottom: 27px;">
+                            <a class="post-hover" href="/ehdfe-weekly/2017/06/23/001.用空格缩进的程序员赚钱更多(2017.6.19-2017.6.23)/">
+                            <div class="columns" style="min-height: 230px;">
+                                
+                                    <div class="column is-4-desktop is-5-tablet post-avatar is-hidden-mobile"
+                                         style="margin: 10px; background-size: cover;background-image: url('https://zhitu.isux.us/assets/img/imgSample/test-60.jpg')">
+                                    </div>
+                                
+                                <div class="column is-8-desktop post-content is-flex align-center">
+                                    <div class="content">
+                                        <h3>用空格缩进的程序员赚钱更多?</h3>
+                                        
+                                        <p>
+                                            
+                                                <span class="tag is-post-tag">webpack</span>
+                                            
+                                        </p>
+                                        <p>
+                                            
+技术趣闻
+webpack 3 发布:这次没有 beta 版本，完全向下兼容。从 webpack 2 迁移到 3，你只需要执行升级命令，而不需要修改任何代码。我们将这次升级标记为版本的重大升级，是因为内部的突破性变化可能会影响某些插件的使用。到目前为止，98% 的升级的用户都没有遇到任何不兼容！
+React 15.6.0 发布：React 15.6.0 ..
+                                        </p>
+                                        <p>2017-06-23</p>
+                                        <button class="button is-small">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    
+                
+                <!--翻頁-->
+                <nav class="pagination is-flex" style="justify-content: flex-end">
+                    
+                        
+                            <a class="pagination-previous" href="/ehdfe-weekly/page/2/">Previous</a>
+                        
+                        
+                    
+                </nav>
+            </section>
+            
+                <style>
+    /*user info start*/
+    .user-info {
+        padding: 15px 0 0;
+    }
+
+    .user-info .avatar {
+        width: 155px;
+        height: 155px;
+        border-radius: 50%;
+    }
+
+    .sns-container {
+        flex-wrap: wrap;
+    }
+
+    .sns-container a{
+        color: black;
+    }
+    /*user info end*/
+
+    /*Tag start*/
+    #tag_cloud .tags-item{
+        display: inline-block;
+        color: #000;
+        border: 1px solid gray;
+
+        margin: 4px 2px;
+        padding: 0 4px;
+        border-radius: 6px;
+    }
+    /*Tag end*/
+
+    /*Site box start*/
+    .site-box {
+        height: 60px;
+    }
+    /*Site box end*/
+
+    .category-list-item,
+    .archive-list-item {
+        display: flex;
+        margin-bottom: 4px;
+        justify-content: space-between;
+    }
+    .category-list-link,
+    .archive-list-link {
+        color: black;
+    }
+
+    .category-list-count,
+    .archive-list-count {
+        width: 32px;
+        text-align: center;
+        border-radius: 4px;
+        color: #fff;
+        background-color: gray;
+    }
+</style>
+<aside class="column is-hidden-touch is-3" style="max-width: 280px; min-width: 230px">
+    <div class="content-box user-info">
+        <div class="has-padding">
+            <header class="has-text-centered">
+                <img class="avatar" src="https://avatars2.githubusercontent.com/u/28437176?s=200&amp;v=4">
+            </header>
+            <section class="has-text-centered">
+                <h3><strong>易货嘀前端团队</strong></h3>
+                <p class="sub-title">前端，让我快乐</p>
+                
+                <p class="is-flex center" style=" color: gray">
+                    <i class="fa fa-map-marker" style="padding: 5px"></i>
+                    杭州,中国
+                </p>
+                
+            </section>
+        </div>
+        <div class="top-line">
+            <ul class="sns-container justify-center is-flex has-padding">
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                <li>
+                    <a target="_blank" href="https://github.com/EHDFE">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                        </span>
+                    </a>
+                </li>
+                
+
+                
+            </ul>
+        </div>
+    </div>
+    <div class="content-box">
+        <!--post数量和tag category 数量-->
+        <div class="site-box is-flex">
+            <div class="flex-1 is-flex flex-column center full-height right-line">
+                <strong>29</strong>
+                <p>Posts</p>
+            </div>
+            <div class="flex-1 is-flex flex-column center full-height">
+                <strong>28</strong>
+                <p>Tags</p>
+            </div>
+        </div>
+    </div>
+    <div id='tag_cloud' class="content-inner content-box">
+        <div class="has-text-centered">
+            <strong>Tags</strong>
+        </div>
+        <div class="content-inner is-flex flex-wrap justify-space-between">
+            
+                <a class="tags-item" href="tags/webpack/" title="webpack" rel="2">
+                    webpack
+                </a>
+            
+                <a class="tags-item" href="tags/react/" title="react" rel="3">
+                    react
+                </a>
+            
+                <a class="tags-item" href="tags/算法/" title="算法" rel="1">
+                    算法
+                </a>
+            
+                <a class="tags-item" href="tags/数据结构/" title="数据结构" rel="1">
+                    数据结构
+                </a>
+            
+                <a class="tags-item" href="tags/正则表达式/" title="正则表达式" rel="3">
+                    正则表达式
+                </a>
+            
+                <a class="tags-item" href="tags/自动化/" title="自动化" rel="1">
+                    自动化
+                </a>
+            
+                <a class="tags-item" href="tags/测试/" title="测试" rel="1">
+                    测试
+                </a>
+            
+                <a class="tags-item" href="tags/高阶组件/" title="高阶组件" rel="1">
+                    高阶组件
+                </a>
+            
+                <a class="tags-item" href="tags/小程序/" title="小程序" rel="1">
+                    小程序
+                </a>
+            
+                <a class="tags-item" href="tags/node/" title="node" rel="2">
+                    node
+                </a>
+            
+                <a class="tags-item" href="tags/组件/" title="组件" rel="1">
+                    组件
+                </a>
+            
+                <a class="tags-item" href="tags/地下色情/" title="地下色情" rel="1">
+                    地下色情
+                </a>
+            
+                <a class="tags-item" href="tags/stream/" title="stream" rel="1">
+                    stream
+                </a>
+            
+                <a class="tags-item" href="tags/weex/" title="weex" rel="1">
+                    weex
+                </a>
+            
+                <a class="tags-item" href="tags/fetch/" title="fetch" rel="1">
+                    fetch
+                </a>
+            
+                <a class="tags-item" href="tags/达摩院/" title="达摩院" rel="1">
+                    达摩院
+                </a>
+            
+                <a class="tags-item" href="tags/持续集成/" title="持续集成" rel="1">
+                    持续集成
+                </a>
+            
+                <a class="tags-item" href="tags/WebGL/" title="WebGL" rel="1">
+                    WebGL
+                </a>
+            
+                <a class="tags-item" href="tags/https/" title="https" rel="1">
+                    https
+                </a>
+            
+                <a class="tags-item" href="tags/AI/" title="AI" rel="1">
+                    AI
+                </a>
+            
+                <a class="tags-item" href="tags/微信小程序/" title="微信小程序" rel="1">
+                    微信小程序
+                </a>
+            
+                <a class="tags-item" href="tags/共享汽车/" title="共享汽车" rel="1">
+                    共享汽车
+                </a>
+            
+                <a class="tags-item" href="tags/buffer/" title="buffer" rel="1">
+                    buffer
+                </a>
+            
+                <a class="tags-item" href="tags/nodejs/" title="nodejs" rel="1">
+                    nodejs
+                </a>
+            
+                <a class="tags-item" href="tags/grid/" title="grid" rel="1">
+                    grid
+                </a>
+            
+                <a class="tags-item" href="tags/Flexbox/" title="Flexbox" rel="1">
+                    Flexbox
+                </a>
+            
+                <a class="tags-item" href="tags/git/" title="git" rel="1">
+                    git
+                </a>
+            
+                <a class="tags-item" href="tags/虚拟货币/" title="虚拟货币" rel="1">
+                    虚拟货币
+                </a>
+            
+        </div>
+    </div>
+    <div class="content-inner content-box">
+        <div class="has-text-centered">
+            <strong>Categories</strong>
+        </div>
+        <div class="content-inner">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/ehdfe-weekly/categories/周报/">周报</a><span class="category-list-count">28</span></li></ul>
+        </div>
+    </div>
+    <div class="content-inner content-box">
+        <div class="has-text-centered">
+            <strong>Archives</strong>
+        </div>
+        <div class="content-inner">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2018/03/">三月 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2018/02/">二月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2018/01/">一月 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2017/12/">十二月 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2017/11/">十一月 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2017/10/">十月 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2017/09/">九月 2017</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2017/08/">八月 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2017/07/">七月 2017</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/ehdfe-weekly/archives/2017/06/">六月 2017</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+</aside>
+            
+        </div>
+    </div>
+</div>
+
+      </div>
+  </div>
+  <style>
+  #footer {
+    min-height: 10vh;
+    background: black;
+    color: #fff;
+  }
+
+  #footer a {
+    color: #e1e1e1;
+  }
+</style>
+<footer id="footer" class="has-text-centered is-flex center">
+  <div class="container has-padding">
+    <div>
+      <div>
+        Copyright © 易货嘀前端团队 2018
+        <br>
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>Theme by <a href="http://haojen.github.io/">Haojen Ma</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/ehdfe-weekly/js/search_core.js"></script>
+<script src="/ehdfe-weekly/js/script.js"></script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
